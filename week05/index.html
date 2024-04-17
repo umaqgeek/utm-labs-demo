@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sample Page</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .navbar, .footer {
+        background-color: #f0f0f0; /* Set light background color for navbar and footer */
+        color: #333; /* Set text color to dark */
+        padding: 10px;
+        text-align: center;
+    }
+    .navbar a {
+        color: #333; /* Set link color to dark */
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    .content {
+        padding: 20px;
+        border-bottom: 1px solid #ccc; /* Adding divider */
+    }
+    .container {
+        background-color: lightblue;
+        padding: 10px;
+        margin: 10px;
+    }
+</style>
+</head>
+<body>
+
+
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</div>
+
+
+<div id="main-content" class="content">
+    <p>This is paragraph 1.</p>
+    <p>This is paragraph 2.</p>
+    <p>This is paragraph 3.</p>
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ul>
+
+
+    <div id="target">Target Element</div>
+    <input id="textInput1" type="text" placeholder="Enter your text">
+    <button id="button1">Button 1</button>
+    <button id="button2">Button 2</button>
+</div>
+
+
+<div class="footer" id="nested">
+    &copy; SECJ 3483: Web Technology. All rights reserved.
+</div>
+
+
+<script src="js/index.js"></script>
+
+
+</body>
+</html>
