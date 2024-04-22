@@ -2,6 +2,18 @@ body {
     font-family: Arial, sans-serif;
     padding: 20px;
     background-color: #f4f4f4;
+    background: black url("https://www.wired.com/wp-content/uploads/2014/10/ut_interstellarOpener_f.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    margin: 0px;
+}
+
+table thead tr th {
+    background-color: lightblue;
+    border-color: cadetblue;
 }
 
 .container {
@@ -10,6 +22,7 @@ body {
     background: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 4px;
 }
 
 table {
@@ -39,6 +52,37 @@ input#inputSearch {
     width: 40%;
 }
 
-button {
+input {
     padding: 8px 20px;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btnPrimary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btnDanger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
 }
