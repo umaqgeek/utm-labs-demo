@@ -1,0 +1,12 @@
+table, tr, td, th {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+th, td {
+    padding: 8px;
+}
+th {
+    background-color: grey;
+    color: white;
+}
