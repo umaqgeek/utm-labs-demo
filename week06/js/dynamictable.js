@@ -1,6 +1,6 @@
 $(function() {
     
-    function addDataToTableRow(index, isbn, title, author, publisher, publishDate, price) {
+    function addDataToTableRow(index, isbn, title, author, publisher, publishdate, price) {
         var row = $.parseHTML("<tr></tr>");
 
         var tdIndex = $.parseHTML("<td></td>");
@@ -9,7 +9,7 @@ $(function() {
         $(tdIndex).data("title", title);
         $(tdIndex).data("author", author);
         $(tdIndex).data("publisher", publisher);
-        $(tdIndex).data("publishDate", publishDate);
+        $(tdIndex).data("publishdate", publishdate);
         $(tdIndex).data("price", price);
 
         var tdTitle = $.parseHTML("<td></td>");
@@ -120,5 +120,16 @@ $(function() {
                 $(parentTR).remove();
             });
         }
+    });
+
+    $("#btnRandom").click(function() {
+        var id = Math.round(Math.random()*1000);
+        var isbn = "isbn" + Math.round(Math.random()*100);
+        var title = Math.random().toString(36).slice(-10);
+        var author = Math.random().toString(36).slice(-10);
+        var publisher = Math.random().toString(36).slice(-6);
+        var publishDate = new Date((new Date()).getTime() * Math.random());
+        var price = (Math.random()*1000).toFixed(2);
+        addDataToTableRow(id, isbn, title, author, publisher, publishDate, price);
     });
 });
