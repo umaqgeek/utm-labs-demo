@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create HTML</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button#btn1").click(function() {
+                var newP = $.parseHTML("<p>New Paragraph</p>");
+                $("#divContent").append(newP);
+            });
+            $("button#btn2").click(function() {
+                var inputText = $("#text1").val();
+                $("#divContent").append("<p>" + inputText + "</p>");
+            });
+            $("button#btn3").click(function() {
+                var insideHTML = $(this).html();
+                $("#divContent").append("<p>" + insideHTML + "</p>");
+            });
+            $("button#clear").click(function() {
+                // $("p").hide();
+                // $("p").remove();
+                $("p").hide().remove();
+            });
+        });
+    </script>
+</head>
+<body>
+    <input type="text" id="text1" placeholder="Type here" />
+    <button id="btn1">Add New Paragraph</button>
+    <button id="btn2">Add Value</button>
+    <button id="btn3">Add HTML</button>
+    <button id="clear">Clear All Paragraph</button>
+    <div id="divContent"></div>
+</body>
+</html>
