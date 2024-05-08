@@ -19,7 +19,16 @@ $(function() {
         $(tdAuthor).html(author);
 
         var tdDelete = $.parseHTML("<td></td>");
-        $(tdDelete).html("<div align='center'><a href='#'><img src='https://cdn-icons-png.freepik.com/512/5974/5974771.png' style='max-height: 32px;' /></a></div>");
+        $(tdDelete).html("\
+            <div align='center'>\
+                <a href='#'>\
+                    <img \
+                        src='https://cdn-icons-png.freepik.com/512/5974/5974771.png' \
+                        style='max-height: 32px;' \
+                    />\
+                </a>\
+            </div>\
+        ");
 
         $(row).append(tdIndex);
         $(row).append(tdTitle);
