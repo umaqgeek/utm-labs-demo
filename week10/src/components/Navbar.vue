@@ -6,7 +6,14 @@
 </template>
 
 <script>
+import ProfileStore from "../stores/profile";
+
 export default {
   name: "NavbarVue",
+  data() {
+    return {
+      profileName: ProfileStore.name,
+    };
+  },
 };
 </script>
