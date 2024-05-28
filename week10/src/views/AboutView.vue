@@ -1,6 +1,5 @@
 <template>
-  <NavbarVue />
-  <div class="about">
+  <div class="about content">
     <h1 @click="profileStore.updateName('hehe')">
       About page of {{ profileStore.name }}
     </h1>
@@ -28,14 +27,10 @@
 
 <script>
 // @ is an alias to /src
-import NavbarVue from "@/components/Navbar.vue";
 import ProfileStore from "@/stores/profile";
 
 export default {
   name: "HomeView",
-  components: {
-    NavbarVue,
-  },
   data() {
     return {
       profileStore: ProfileStore,

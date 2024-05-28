@@ -1,55 +1,52 @@
 <template>
-  <NavbarVue />
-  <h1>Update Profile</h1>
-  <table>
-    <tbody>
-      <tr>
-        <td>Name</td>
-        <td>:</td>
-        <td>
-          <input
-            type="text"
-            name="name"
-            v-model="profileStore.name"
-            placeholder="Enter name here..."
-          />
-        </td>
-      </tr>
-      <tr>
-        <td>Age</td>
-        <td>:</td>
-        <td>
-          <input
-            type="text"
-            name="age"
-            v-model="profileStore.age"
-            placeholder="Enter age here..."
-          />
-        </td>
-      </tr>
-      <tr>
-        <td>Hobbies</td>
-        <td>:</td>
-        <td>{{ profileStore.hobbies.map((h) => h).join(", ") }}</td>
-      </tr>
-      <tr>
-        <td colspan="3">
-          <button type="button" v-on:click="clearForm()">Clear</button>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="content">
+    <h1>Update Profile</h1>
+    <table>
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td>:</td>
+          <td>
+            <input
+              type="text"
+              name="name"
+              v-model="profileStore.name"
+              placeholder="Enter name here..."
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Age</td>
+          <td>:</td>
+          <td>
+            <input
+              type="text"
+              name="age"
+              v-model="profileStore.age"
+              placeholder="Enter age here..."
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Hobbies</td>
+          <td>:</td>
+          <td>{{ profileStore.hobbies.map((h) => h).join(", ") }}</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <button type="button" v-on:click="clearForm()">Clear</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </template>
 
 <script>
-import NavbarVue from "@/components/Navbar.vue";
 import ProfileStore from "@/stores/profile";
 
 export default {
   name: "ProfileView",
-  components: {
-    NavbarVue,
-  },
   data() {
     return {
       profileStore: ProfileStore,
