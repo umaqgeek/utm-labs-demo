@@ -10,7 +10,7 @@
             <input
               type="text"
               name="name"
-              v-model="profileStore.name"
+              v-model="name"
               placeholder="Enter name here..."
             />
           </td>
@@ -22,7 +22,7 @@
             <input
               type="text"
               name="age"
-              v-model="profileStore.age"
+              v-model="age"
               placeholder="Enter age here..."
             />
           </td>
@@ -30,11 +30,13 @@
         <tr>
           <td>Hobbies</td>
           <td>:</td>
-          <td>{{ profileStore.hobbies.map((h) => h).join(", ") }}</td>
+          <td>{{ hobbies.map((h) => h).join(", ") }}</td>
         </tr>
         <tr>
           <td colspan="3">
-            <button type="button" v-on:click="clearForm()">Clear</button>
+            <button type="button" v-on:click="saveForm">Save</button>
+            &nbsp;&nbsp;
+            <button type="button" v-on:click="clearForm">Clear</button>
           </td>
         </tr>
       </tbody>
@@ -49,14 +51,26 @@ export default {
   name: "ProfileView",
   data() {
     return {
-      profileStore: ProfileStore,
+      name: "",
+      age: "",
+      hobbies: [],
     };
   },
   methods: {
-    clearForm: function () {
-      this.profileStore.updateName("");
-      this.profileStore.updateAge("");
+    saveForm: function () {
+      ProfileStore.name = this.name;
+      ProfileStore.age = this.age;
+      alert("Profile Saved!");
     },
+    clearForm: function () {
+      this.name = "";
+      this.age = "";
+    },
+  },
+  mounted() {
+    this.name = ProfileStore.name;
+    this.age = ProfileStore.age;
+    this.hobbies = ProfileStore.hobbies;
   },
 };
 </script>

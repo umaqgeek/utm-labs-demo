@@ -4,7 +4,10 @@
     <div v-if="loading === true">Fetching data ...</div>
     <div v-else>
       <ul>
-        <li v-for="todo in todos" v-bind:key="todo.id">{{ todo.title }}</li>
+        <li v-for="todo in todos" v-bind:key="todo.id">
+          <strong v-if="todo.completed == true">{{ todo.title }}</strong>
+          <span v-else>{{ todo.title }}</span>
+        </li>
       </ul>
     </div>
   </div>
