@@ -1,110 +1,114 @@
 {
-    "MyProfile": {
-        "name": "Umar Mukhtar",
-        "age": 33,
-        "address": "Kuala Lumpur",
-        "hobbies": ["Badminton", "Mobile games", "Programming"]
-    },
-    "users": [
-        {
-            "id": 1,
-            "name": "Ali Johan",
-            "email": "alijo@utm.my",
-            "role": "admin"
-        },
-        {
-            "id": 2,
-            "name": "Seman Rihan",
-            "email": "semrihan@utm.my",
-            "role": "sales"
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "Laptop",
-            "price": 2999.99
-        },
-        {
-            "id": 3,
-            "name": "Phone",
-            "price": 1999.50
-        },
-        {
-            "id": 5,
-            "name": "Desk",
-            "price": 500.00
-        },
-        {
-            "id": 9,
-            "name": "Book",
-            "price": 45.50
-        }
-    ],
-    "orders": [
-        {
-            "id": 1,
-            "product_id": 1,
-            "user_id": 1
-        },
-        {
-            "id": 2,
-            "product_id": 2,
-            "user_id": 1
-        },
-        {
-            "id": 3,
-            "product_id": 1,
-            "user_id": 2
-        }
-    ],
-    "transactions": [
-        {
-            "id": 1,
-            "user_id": 1,
-            "orders": [
-                {
-                    "id": 1,
-                    "products": [
-                        {
-                            "id": 1,
-                            "name": "Laptop",
-                            "price": 2999.99
-                        }
-                    ],
-                    "user_id": 1
-                },
-                {
-                    "id": 2,
-                    "products": [
-                        {
-                            "id": 3,
-                            "name": "Phone",
-                            "price": 1999.50
-                        }
-                    ],
-                    "user_id": 1
-                }
-            ],
-            "total_price": 4999.49
-        },
-        {
-            "id": 2,
-            "user_id": 2,
-            "orders": [
-                {
-                    "id": 3,
-                    "products": [
-                        {
-                            "id": 1,
-                            "name": "Laptop",
-                            "price": 2999.99
-                        }
-                    ],
-                    "user_id": 2
-                }
-            ],
-            "total_price": 2999.99
-        }
+  "MyProfile": {
+    "name": "Umar Mukhtar",
+    "age": 33,
+    "address": "Kuala Lumpur",
+    "hobbies": [
+      "Badminton",
+      "Mobile games",
+      "Programming"
     ]
+  },
+  "users": [
+    {
+      "id": "1",
+      "name": "Ali Johan",
+      "email": "alijo@utm.my",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Seman Rihan",
+      "email": "semrihan@utm.my",
+      "role": "sales"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "price": 2999.99
+    },
+    {
+      "id": "3",
+      "name": "Phone",
+      "price": 1999.5
+    },
+    {
+      "id": "5",
+      "name": "Desk",
+      "price": 500
+    },
+    {
+      "id": "9",
+      "name": "Book",
+      "price": 45.5
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "product_id": 1,
+      "user_id": 1
+    },
+    {
+      "id": "2",
+      "product_id": 2,
+      "user_id": 1
+    },
+    {
+      "id": "3",
+      "product_id": 1,
+      "user_id": 2
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "user_id": 1,
+      "orders": [
+        {
+          "id": 1,
+          "products": [
+            {
+              "id": 1,
+              "name": "Laptop",
+              "price": 2999.99
+            }
+          ],
+          "user_id": 1
+        },
+        {
+          "id": 2,
+          "products": [
+            {
+              "id": 3,
+              "name": "Phone",
+              "price": 1999.5
+            }
+          ],
+          "user_id": 1
+        }
+      ],
+      "total_price": 4999.49
+    },
+    {
+      "id": "2",
+      "user_id": 2,
+      "orders": [
+        {
+          "id": 3,
+          "products": [
+            {
+              "id": 1,
+              "name": "Laptop",
+              "price": 2999.99
+            }
+          ],
+          "user_id": 2
+        }
+      ],
+      "total_price": 2999.99
+    }
+  ]
 }
