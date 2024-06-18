@@ -1,0 +1,217 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Loai",
+        "email": "loai@example.com",
+        "phone": "123456789",
+        "address": "Kuala Lumpur, Malaysia"
+      },
+      {
+        "id": 2,
+        "name": "Ammar",
+        "email": "ammar@example.com",
+        "phone": "123456789",
+        "address": "Selangor, Malaysia"
+      },
+      {
+        "id": 3,
+        "name": "Odai",
+        "email": "odai@example.com",
+        "phone": "123456789",
+        "address": "Johor, Malaysia"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Laptop",
+        "stock": 50,
+        "price": 1000,
+        "sku": "LAPTOP123"
+      },
+      {
+        "id": 2,
+        "name": "Smartphone",
+        "stock": 100,
+        "price": 700,
+        "sku": "SMARTPHONE123"
+      },
+      {
+        "id": 3,
+        "name": "Tablet",
+        "stock": 80,
+        "price": 500,
+        "sku": "TABLET123"
+      },
+      {
+        "id": 4,
+        "name": "Headphones",
+        "stock": 200,
+        "price": 150,
+        "sku": "HEADPHONES123"
+      },
+      {
+        "id": 5,
+        "name": "Keyboard",
+        "stock": 150,
+        "price": 50,
+        "sku": "KEYBOARD123"
+      },
+      {
+        "id": 6,
+        "name": "Mouse",
+        "stock": 180,
+        "price": 30,
+        "sku": "MOUSE123"
+      },
+      {
+        "id": 7,
+        "name": "Monitor",
+        "stock": 60,
+        "price": 200,
+        "sku": "MONITOR123"
+      },
+      {
+        "id": 8,
+        "name": "Printer",
+        "stock": 40,
+        "price": 250,
+        "sku": "PRINTER123"
+      },
+      {
+        "id": 9,
+        "name": "Webcam",
+        "stock": 120,
+        "price": 80,
+        "sku": "WEBCAM123"
+      },
+      {
+        "id": 10,
+        "name": "Speakers",
+        "stock": 110,
+        "price": 120,
+        "sku": "SPEAKERS123"
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "productId": 1,
+        "userId": 1
+      },
+      {
+        "id": 2,
+        "productId": 2,
+        "userId": 1
+      },
+      {
+        "id": 3,
+        "productId": 3,
+        "userId": 1
+      },
+      {
+        "id": 4,
+        "productId": 4,
+        "userId": 1
+      },
+      {
+        "id": 5,
+        "productId": 5,
+        "userId": 1
+      },
+      {
+        "id": 6,
+        "productId": 6,
+        "userId": 2
+      },
+      {
+        "id": 7,
+        "productId": 7,
+        "userId": 2
+      },
+      {
+        "id": 8,
+        "productId": 8,
+        "userId": 2
+      },
+      {
+        "id": 9,
+        "productId": 9,
+        "userId": 2
+      },
+      {
+        "id": 10,
+        "productId": 1,
+        "userId": 2
+      },
+      {
+        "id": 11,
+        "productId": 1,
+        "userId": 3
+      },
+      {
+        "id": 12,
+        "productId": 3,
+        "userId": 3
+      },
+      {
+        "id": 13,
+        "productId": 5,
+        "userId": 3
+        
+      },
+      {
+        "id": 14,
+        "productId": 7,
+        "userId": 3
+      },
+      {
+        "id": 15,
+        "productId": 9,
+        "userId": 3
+      }
+    ],
+    "transactions": [
+      {
+        "id": 1,
+        "userId": 1,
+        "orders": [
+          {"productId": 1},
+          {"productId": 2},
+          {"productId": 3},
+          {"productId": 4},
+          {"productId": 5}
+        ],
+        "billingAddress": "Kuala Lumpur, Malaysia",
+        "totalPrice": 2400
+      },
+      {
+        "id": 2,
+        "userId": 2,
+        "orders": [
+          {"productId": 6},
+          {"productId": 7},
+          {"productId": 8},
+          {"productId": 9},
+          {"productId": 10}     
+        ],
+        "billingAddress": "Selangor, Malaysia",
+        "totalPrice": 2300
+      },
+      {
+        "id": 3,
+        "userId": 3,
+        "orders": [
+          {"productId": 11},
+          {"productId": 12},
+          {"productId": 13},
+          {"productId": 14},
+          {"productId": 15}
+        ],
+        "billingAddress": "Johor, Malaysia",
+        "totalPrice": 2450
+      }
+    ]    
+  }
+  

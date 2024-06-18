@@ -1,0 +1,279 @@
+{
+  "MyProfile": {
+    "studentId": "A21MJ5037",
+    "name": "Ching Jie Kai"
+  },
+  "users": [
+    {
+      "id": "1",
+      "name": "Adam Iskandar",
+      "email": "damiskandar@gmail.com",
+      "phone": "012-3456789",
+      "address": "123 Taman ABC, Jalan Batu, 54000 Kuala Lumpur, Malaysia"
+    },
+    {
+      "id": "2",
+      "name": "Jie Kai",
+      "email": "jkai.ching@gmail.com",
+      "phone": "012-654 3210",
+      "address": "133 Taman BCA, Jalan Hamido, 54000 Kuala Lumpur, Malaysia"
+    },
+    {
+      "id": "3",
+      "name": "Hamido Fujita",
+      "email": "fujita@gmail.com",
+      "phone": "012-555 5555",
+      "address": "312 Taman Mutiara, Jalan Premium, 10200 George Town, Penang Malaysia"
+    }
+  ],
+  "products": [
+    {
+      "id": "01",
+      "name": "Iphone 12",
+      "stockQuantity": 102,
+      "price": 2500.00,
+      "SKU_No": "001"
+    },
+    {
+      "id": "02",
+      "name": "Iphone 12 plus",
+      "stockQuantity": 43,
+      "price": 2700.00,
+      "SKU_No": "002"
+    },
+    {
+      "id": "03",
+      "name": "Iphone 12 mini",
+      "stockQuantity": 12,
+      "price": 2600.00,
+      "SKU_No": "003"
+    },
+    {
+      "id": "04",
+      "name": "Iphone 12 pro",
+      "stockQuantity": 77,
+      "price": 3000.00,
+      "SKU_No": "004"
+    },
+    {
+      "id": "05",
+      "name": "Iphone 12 pro Max",
+      "stockQuantity": 162,
+      "price": 4500.00,
+      "SKU_No": "005"
+    },
+    {
+      "id": "06",
+      "name": "Iphone 13",
+      "stockQuantity": 102,
+      "price": 4300.00,
+      "SKU_No": "006"
+    },
+    {
+      "id": "07",
+      "name": "Iphone 13 plus",
+      "stockQuantity": 67,
+      "price": 4500.00,
+      "SKU_No": "007"
+    },
+    {
+      "id": "08",
+      "name": "Iphone 13 mini",
+      "stockQuantity": 123,
+      "price": 4000.00,
+      "SKU_No": "008"
+    },
+    {
+      "id": "09",
+      "name": "Iphone 13 pro",
+      "stockQuantity": 190,
+      "price": 4600.00,
+      "SKU_No": "009"
+    },
+    {
+      "id": "10",
+      "name": "Iphone 13 pro Max",
+      "stockQuantity": 212,
+      "price": 5500.00,
+      "SKU_No": "010"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "T01",
+      "userId": "1",
+      "total_price": "RM 15300.00",
+      "billing_address": "123 Taman ABC, Jalan Batu, 54000 Kuala Lumpur, Malaysia",
+      "orders": [
+        {
+          "id": "Od001",
+          "userid": "1",
+          "productId": "01"
+        },
+        {
+          "id": "Od002",
+          "userid": "1",
+          "productId": "02"
+        },
+        {
+          "id": "Od003",
+          "userid": "1",
+          "productId": "03"
+        },
+        {
+          "id": "Od004",
+          "userid": "1",
+          "productId": "04"
+        },
+        {
+          "id": "Od005",
+          "userid": "1",
+          "productId": "05"
+        }
+      ]
+    },
+    {
+      "id": "T02",
+      "userId": "2",
+      "total_price": "RM 22900.00",
+      "billing_address": "133 Taman BCA, Jalan Hamido, 54000 Kuala Lumpur, Malaysia",
+      "orders": [
+        {
+          "id": "Od006",
+          "userid": "2",
+          "productId": "06"
+        },
+        {
+          "id": "Od007",
+          "userid": "2",
+          "productId": "07"
+        },
+        {
+          "id": "Od008",
+          "userid": "2",
+          "productId": "08"
+        },
+        {
+          "id": "Od009",
+          "userid": "2",
+          "productId": "09"
+        },
+        {
+          "id": "Od010",
+          "userid": "2",
+          "productId": "10"
+        }
+      ]
+    },
+    {
+      "id": "T03",
+      "userId": "3",
+      "total_price": "RM 15300.00",
+      "billing_address": "312 Taman Mutiara, Jalan Premium, 10200 George Town, Penang Malaysia",
+      "orders": [
+        {
+          "id": "Od011",
+          "userid": "3",
+          "productId": "01"
+        },
+        {
+          "id": "Od012",
+          "userid": "3",
+          "productId": "02"
+        },
+        {
+          "id": "Od013",
+          "userid": "3",
+          "productId": "03"
+        },
+        {
+          "id": "Od014",
+          "userid": "3",
+          "productId": "04"
+        },
+        {
+          "id": "Od015",
+          "userid": "3",
+          "productId": "05"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+        "id": "Od001",
+        "userId": "1",
+        "productId": "1"
+    },
+    {
+        "id": "Od002",
+        "userId": "1",
+        "productId": "2"
+    },
+    {
+        "id": "Od003",
+        "userId": "1",
+        "productId": "3"
+    },
+    {
+        "id": "Od004",
+        "userId": "1",
+        "productId": "4"
+    },
+    {
+        "id": "Od005",
+        "userId": "1",
+        "productId": "5"
+    },
+    {
+        "id": "Od006",
+        "userId": "2",
+        "productId": "6"
+    },
+    {
+        "id": "Od007",
+        "userId": "2",
+        "productId": "7"
+    },
+    {
+        "id": "Od008",
+        "userId": "2",
+        "productId": "8"
+    },
+    {
+        "id": "Od009",
+        "userId": "2",
+        "productId": "9"
+    },
+    {
+        "id": "Od010",
+        "userId": "2",
+        "productId": "10"
+    },
+    {
+        "id": "Od011",
+        "userId": "3",
+        "productId": "1"
+    },
+    {
+        "id": "Od012",
+        "userId": "3",
+        "productId": "2"
+    },
+    {
+        "id": "Od013",
+        "userId": "3",
+        "productId": "3"
+    },
+    {
+        "id": "Od014",
+        "userId": "3",
+        "productId": "4"
+    },
+    {
+        "id": "Od015",
+        "userId": "3",
+        "productId": "5"
+    }
+]
+}

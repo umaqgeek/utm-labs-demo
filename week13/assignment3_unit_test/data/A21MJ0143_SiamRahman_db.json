@@ -1,0 +1,307 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "phone_number": "555-1234",
+        "address": "123 Main St, Springfield, IL"
+      },
+      {
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob.smith@example.com",
+        "phone_number": "555-5678",
+        "address": "456 Elm St, Springfield, IL"
+      },
+      {
+        "id": 3,
+        "name": "Carol White",
+        "email": "carol.white@example.com",
+        "phone_number": "555-8765",
+        "address": "789 Oak St, Springfield, IL"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "product_name": "Laptop",
+        "stock_quantity": 50,
+        "price": 1000.00,
+        "sku_number": "LAP12345"
+      },
+      {
+        "id": 2,
+        "product_name": "Smartphone",
+        "stock_quantity": 100,
+        "price": 600.00,
+        "sku_number": "SMP12345"
+      },
+      {
+        "id": 3,
+        "product_name": "Tablet",
+        "stock_quantity": 80,
+        "price": 300.00,
+        "sku_number": "TAB12345"
+      },
+      {
+        "id": 4,
+        "product_name": "Headphones",
+        "stock_quantity": 200,
+        "price": 50.00,
+        "sku_number": "HDP12345"
+      },
+      {
+        "id": 5,
+        "product_name": "Keyboard",
+        "stock_quantity": 150,
+        "price": 30.00,
+        "sku_number": "KYB12345"
+      },
+      {
+        "id": 6,
+        "product_name": "Mouse",
+        "stock_quantity": 175,
+        "price": 25.00,
+        "sku_number": "MOU12345"
+      },
+      {
+        "id": 7,
+        "product_name": "Monitor",
+        "stock_quantity": 60,
+        "price": 200.00,
+        "sku_number": "MON12345"
+      },
+      {
+        "id": 8,
+        "product_name": "Printer",
+        "stock_quantity": 40,
+        "price": 150.00,
+        "sku_number": "PRI12345"
+      },
+      {
+        "id": 9,
+        "product_name": "Router",
+        "stock_quantity": 90,
+        "price": 75.00,
+        "sku_number": "RTR12345"
+      },
+      {
+        "id": 10,
+        "product_name": "Webcam",
+        "stock_quantity": 120,
+        "price": 40.00,
+        "sku_number": "WBC12345"
+      }
+    ],
+    "transactions": [
+      {
+        "transaction_id": 1,
+        "user": {
+          "id": 1,
+          "name": "Alice Johnson",
+          "email": "alice.johnson@example.com",
+          "phone_number": "555-1234",
+          "address": "123 Main St, Springfield, IL"
+        },
+        "total_price": 2250.00,
+        "billing_address": "123 Main St, Springfield, IL",
+        "orders": [
+          {
+            "order_id": 1,
+            "product": {
+              "id": 1,
+              "product_name": "Laptop",
+              "stock_quantity": 50,
+              "price": 1000.00,
+              "sku_number": "LAP12345"
+            },
+            "quantity": 1
+          },
+          {
+            "order_id": 2,
+            "product": {
+              "id": 2,
+              "product_name": "Smartphone",
+              "stock_quantity": 100,
+              "price": 600.00,
+              "sku_number": "SMP12345"
+            },
+            "quantity": 2
+          },
+          {
+            "order_id": 3,
+            "product": {
+              "id": 3,
+              "product_name": "Tablet",
+              "stock_quantity": 80,
+              "price": 300.00,
+              "sku_number": "TAB12345"
+            },
+            "quantity": 1
+          },
+          {
+            "order_id": 4,
+            "product": {
+              "id": 4,
+              "product_name": "Headphones",
+              "stock_quantity": 200,
+              "price": 50.00,
+              "sku_number": "HDP12345"
+            },
+            "quantity": 3
+          },
+          {
+            "order_id": 5,
+            "product": {
+              "id": 5,
+              "product_name": "Keyboard",
+              "stock_quantity": 150,
+              "price": 30.00,
+              "sku_number": "KYB12345"
+            },
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "transaction_id": 2,
+        "user": {
+          "id": 2,
+          "name": "Bob Smith",
+          "email": "bob.smith@example.com",
+          "phone_number": "555-5678",
+          "address": "456 Elm St, Springfield, IL"
+        },
+        "total_price": 1205.00,
+        "billing_address": "456 Elm St, Springfield, IL",
+        "orders": [
+          {
+            "order_id": 6,
+            "product": {
+              "id": 6,
+              "product_name": "Mouse",
+              "stock_quantity": 175,
+              "price": 25.00,
+              "sku_number": "MOU12345"
+            },
+            "quantity": 2
+          },
+          {
+            "order_id": 7,
+            "product": {
+              "id": 7,
+              "product_name": "Monitor",
+              "stock_quantity": 60,
+              "price": 200.00,
+              "sku_number": "MON12345"
+            },
+            "quantity": 1
+          },
+          {
+            "order_id": 8,
+            "product": {
+              "id": 8,
+              "product_name": "Printer",
+              "stock_quantity": 40,
+              "price": 150.00,
+              "sku_number": "PRI12345"
+            },
+            "quantity": 1
+          },
+          {
+            "order_id": 9,
+            "product": {
+              "id": 9,
+              "product_name": "Router",
+              "stock_quantity": 90,
+              "price": 75.00,
+              "sku_number": "RTR12345"
+            },
+            "quantity": 4
+          },
+          {
+            "order_id": 10,
+            "product": {
+              "id": 10,
+              "product_name": "Webcam",
+              "stock_quantity": 120,
+              "price": 40.00,
+              "sku_number": "WBC12345"
+            },
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "transaction_id": 3,
+        "user": {
+          "id": 3,
+          "name": "Carol White",
+          "email": "carol.white@example.com",
+          "phone_number": "555-8765",
+          "address": "789 Oak St, Springfield, IL"
+        },
+        "total_price": 525.00,
+        "billing_address": "789 Oak St, Springfield, IL",
+        "orders": [
+          {
+            "order_id": 11,
+            "product": {
+              "id": 1,
+              "product_name": "Laptop",
+              "stock_quantity": 50,
+              "price": 1000.00,
+              "sku_number": "LAP12345"
+            },
+            "quantity": 1
+          },
+          {
+            "order_id": 12,
+            "product": {
+              "id": 2,
+              "product_name": "Smartphone",
+              "stock_quantity": 100,
+              "price": 600.00,
+              "sku_number": "SMP12345"
+            },
+            "quantity": 1
+          },
+          {
+            "order_id": 13,
+            "product": {
+              "id": 3,
+              "product_name": "Tablet",
+              "stock_quantity": 80,
+              "price": 300.00,
+              "sku_number": "TAB12345"
+            },
+            "quantity": 1
+          },
+          {
+            "order_id": 14,
+            "product": {
+              "id": 4,
+              "product_name": "Headphones",
+              "stock_quantity": 200,
+              "price": 50.00,
+              "sku_number": "HDP12345"
+            },
+            "quantity": 1
+          },
+          {
+            "order_id": 15,
+            "product": {
+              "id": 5,
+              "product_name": "Keyboard",
+              "stock_quantity": 150,
+              "price": 30.00,
+              "sku_number": "KYB12345"
+            },
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  }
+  

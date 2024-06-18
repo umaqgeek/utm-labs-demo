@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Cristiano Ronaldo",
+      "email": "cristiano@gmail.com",
+      "phone": "123456789",
+      "address": "123 Victory St, Turin"
+    },
+    {
+      "id": 2,
+      "name": "Lionel Messi",
+      "email": "lionel@gmail.com",
+      "phone": "987654321",
+      "address": "456 Goal St, Paris"
+    },
+    {
+      "id": 3,
+      "name": "Neymar Jr",
+      "email": "neymar@gmail.com",
+      "phone": "555777999",
+      "address": "789 Dribble St, Rio de Janeiro"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Leather Wallet",
+      "stockQuantity": 100,
+      "price": 45.70,
+      "sku": "SKU001"
+    },
+    {
+      "id": 2,
+      "productName": "Designer Belt",
+      "stockQuantity": 120,
+      "price": 55.20,
+      "sku": "SKU002"
+    },
+    {
+      "id": 3,
+      "productName": "Sunglasses",
+      "stockQuantity": 140,
+      "price": 75.00,
+      "sku": "SKU003"
+    },
+    {
+      "id": 4,
+      "productName": "Luxury Watch",
+      "stockQuantity": 50,
+      "price": 250.50,
+      "sku": "SKU004"
+    },
+    {
+      "id": 5,
+      "productName": "Sports Bag",
+      "stockQuantity": 20,
+      "price": 90.90,
+      "sku": "SKU005"
+    },
+    {
+      "id": 6,
+      "productName": "Sneakers",
+      "stockQuantity": 230,
+      "price": 135.99,
+      "sku": "SKU006"
+    },
+    {
+      "id": 7,
+      "productName": "Track Jacket",
+      "stockQuantity": 70,
+      "price": 85.00,
+      "sku": "SKU007"
+    },
+    {
+      "id": 8,
+      "productName": "Cap",
+      "stockQuantity": 90,
+      "price": 25.99,
+      "sku": "SKU008"
+    },
+    {
+      "id": 9,
+      "productName": "Training Shorts",
+      "stockQuantity": 120,
+      "price": 35.99,
+      "sku": "SKU009"
+    },
+    {
+      "id": 10,
+      "productName": "Jersey",
+      "stockQuantity": 110,
+      "price": 60.99,
+      "sku": "SKU010"
+    }
+  ],
+  "orders": [
+    { "id": 1, "userId": 1, "productId": 1, "quantity": 2 },
+    { "id": 2, "userId": 1, "productId": 2, "quantity": 3 },
+    { "id": 3, "userId": 1, "productId": 3, "quantity": 1 },
+    { "id": 4, "userId": 1, "productId": 4, "quantity": 4 },
+    { "id": 5, "userId": 1, "productId": 5, "quantity": 2 },
+    { "id": 6, "userId": 2, "productId": 6, "quantity": 3 },
+    { "id": 7, "userId": 2, "productId": 7, "quantity": 1 },
+    { "id": 8, "userId": 2, "productId": 8, "quantity": 2 },
+    { "id": 9, "userId": 2, "productId": 9, "quantity": 3 },
+    { "id": 10, "userId": 2, "productId": 10, "quantity": 2 },
+    { "id": 11, "userId": 3, "productId": 1, "quantity": 1 },
+    { "id": 12, "userId": 3, "productId": 2, "quantity": 4 },
+    { "id": 13, "userId": 3, "productId": 3, "quantity": 2 },
+    { "id": 14, "userId": 3, "productId": 4, "quantity": 3 },
+    { "id": 15, "userId": 3, "productId": 5, "quantity": 1 }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "orders": [1, 2, 3, 4, 5],
+      "totalPrice": 1067.3,
+      "billingAddress": "123 Victory St, Turin"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "orders": [6, 7, 8, 9, 10],
+      "totalPrice": 673.95,
+      "billingAddress": "456 Goal St, Paris"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "orders": [11, 12, 13, 14, 15],
+      "totalPrice": 952.7,
+      "billingAddress": "789 Dribble St, Rio de Janeiro"
+    }
+  ]
+}

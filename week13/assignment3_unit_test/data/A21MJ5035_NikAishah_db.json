@@ -1,0 +1,237 @@
+{
+  "users": [
+    {
+      "id": "123",
+      "name": "Nik Aishah",
+      "email": "nikaishah1200@gmail.com",
+      "phone": "0174914166",
+      "address": "30, Lorong Sering 3, Bukit Anatarabangsa, Ampang"
+    },
+    {
+      "id": "234",
+      "name": "Danial Haziq",
+      "email": "danialhzq2@gmail.com",
+      "phone": "0155467449",
+      "address": "64, Jalan Orked, Putra Heights"
+    },
+    {
+      "id": "345",
+      "name": "Dina Marissa",
+      "email": "cdmarissa@gmail.com",
+      "phone": "013-595-5225",
+      "address": "6, Jalan Kelab Ukay, Ampang"
+    },
+    {
+      "id": "456",
+      "name": "Luqman Shah",
+      "email": "lqmnshah@gmail.com",
+      "phone": "0196467449",
+      "address": "47, Jalan Mawar, Putra Heights"
+    }
+  ],
+  "products": [
+    {
+      "id": "133",
+      "productName": "Product 1",
+      "stockQuantity": 100,
+      "price": 19.9,
+      "sku": "SKU001"
+    },
+    {
+      "id": "244",
+      "productName": "Product 2",
+      "stockQuantity": 55,
+      "price": 25.95,
+      "sku": "SKU002"
+    },
+    {
+      "id": "355",
+      "productName": "Product 3",
+      "stockQuantity": 79,
+      "price": 9.99,
+      "sku": "SKU003"
+    },
+    {
+      "id": "466",
+      "productName": "Product 4",
+      "stockQuantity": 210,
+      "price": 47.99,
+      "sku": "SKU004"
+    },
+    {
+      "id": "577",
+      "productName": "Product 5",
+      "stockQuantity": 130,
+      "price": 37.99,
+      "sku": "SKU005"
+    },
+    {
+      "id": "688",
+      "productName": "Product 6",
+      "stockQuantity": 84,
+      "price": 24.9,
+      "sku": "SKU006"
+    },
+    {
+      "id": "799",
+      "productName": "Product 7",
+      "stockQuantity": 63,
+      "price": 14.9,
+      "sku": "SKU007"
+    },
+    {
+      "id": "891",
+      "productName": "Product 8",
+      "stockQuantity": 95,
+      "price": 59.99,
+      "sku": "SKU008"
+    },
+    {
+      "id": "900",
+      "productName": "Product 9",
+      "stockQuantity": 42,
+      "price": 79.99,
+      "sku": "SKU009"
+    },
+    {
+      "id": "1010",
+      "productName": "Product 10",
+      "stockQuantity": 36,
+      "price": 99.99,
+      "sku": "SKU010"
+    }
+  ],
+  "orders": [
+    {
+      "id": "101",
+      "userId": 123,
+      "productId": 133,
+      "quantity": 2
+    },
+    {
+      "id": "102",
+      "userId": 345,
+      "productId": 891,
+      "quantity": 1
+    },
+    {
+      "id": "104",
+      "userId": 456,
+      "productId": 688,
+      "quantity": 1
+    },
+    {
+      "id": "105",
+      "userId": 456,
+      "productId": 900,
+      "quantity": 2
+    },
+    {
+      "id": "106",
+      "userId": 345,
+      "productId": 133,
+      "quantity": 1
+    },
+    {
+      "id": "107",
+      "userId": 234,
+      "productId": 133,
+      "quantity": 1
+    },
+    {
+      "id": "108",
+      "userId": 345,
+      "productId": 1010,
+      "quantity": 2
+    },
+    {
+      "id": "109",
+      "userId": 345,
+      "productId": 900,
+      "quantity": 1
+    },
+    {
+      "id": "110",
+      "userId": 234,
+      "productId": 1010,
+      "quantity": 1
+    },
+    {
+      "id": "111",
+      "userId": 234,
+      "productId": 688,
+      "quantity": 1
+    },
+    {
+      "id": "112",
+      "userId": 456,
+      "productId": 891,
+      "quantity": 3
+    },
+    {
+      "id": "113",
+      "userId": 456,
+      "productId": 466,
+      "quantity": 2
+    },
+    {
+      "id": "114",
+      "userId": 456,
+      "productId": 466,
+      "quantity": 1
+    },
+    {
+      "id": "115",
+      "userId": 123,
+      "productId": 355,
+      "quantity": 1
+    },
+    {
+      "id": "103",
+      "userId": 456,
+      "productId": 133,
+      "quantity": 4
+    },
+    {
+      "id": "103",
+      "userId": 456,
+      "productId": 133,
+      "quantity": 4
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1001",
+      "userId": 123,
+      "orders": [
+        101,
+        115
+      ],
+      "totalPrice": 49.79,
+      "billingAddress": "30, Lorong Sering 3, Bukit Anatarabangsa, Ampang"
+    },
+    {
+      "id": "1002",
+      "userId": 234,
+      "orders": [
+        107,
+        110,
+        111
+      ],
+      "totalPrice": 144.79,
+      "billingAddress": "64, Jalan Orked, Putra Heights"
+    },
+    {
+      "id": "1003",
+      "userId": 345,
+      "orders": [
+        102,
+        106,
+        108,
+        109
+      ],
+      "totalPrice": 259.87,
+      "billingAddress": "6, Jalan Kelab Ukay, Ampang"
+    }
+  ]
+}

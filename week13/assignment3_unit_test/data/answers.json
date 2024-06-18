@@ -1,0 +1,332 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "User One",
+      "email": "userone@example.com",
+      "phone": "123-456-7890",
+      "address": "123 First St, City, Country"
+    },
+    {
+      "id": 2,
+      "name": "User Two",
+      "email": "usertwo@example.com",
+      "phone": "987-654-3210",
+      "address": "456 Second St, City, Country"
+    },
+    {
+      "id": 3,
+      "name": "User Three",
+      "email": "userthree@example.com",
+      "phone": "456-789-1230",
+      "address": "789 Third St, City, Country"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "product_name": "Product 1",
+      "stock_quantity": 100,
+      "price": 10,
+      "SKU_number": "SKU001"
+    },
+    {
+      "id": 2,
+      "product_name": "Product 2",
+      "stock_quantity": 150,
+      "price": 20,
+      "SKU_number": "SKU002"
+    },
+    {
+      "id": 3,
+      "product_name": "Product 3",
+      "stock_quantity": 200,
+      "price": 30,
+      "SKU_number": "SKU003"
+    },
+    {
+      "id": 4,
+      "product_name": "Product 4",
+      "stock_quantity": 250,
+      "price": 40,
+      "SKU_number": "SKU004"
+    },
+    {
+      "id": 5,
+      "product_name": "Product 5",
+      "stock_quantity": 300,
+      "price": 50,
+      "SKU_number": "SKU005"
+    },
+    {
+      "id": 6,
+      "product_name": "Product 6",
+      "stock_quantity": 350,
+      "price": 60,
+      "SKU_number": "SKU006"
+    },
+    {
+      "id": 7,
+      "product_name": "Product 7",
+      "stock_quantity": 400,
+      "price": 70,
+      "SKU_number": "SKU007"
+    },
+    {
+      "id": 8,
+      "product_name": "Product 8",
+      "stock_quantity": 450,
+      "price": 80,
+      "SKU_number": "SKU008"
+    },
+    {
+      "id": 9,
+      "product_name": "Product 9",
+      "stock_quantity": 500,
+      "price": 90,
+      "SKU_number": "SKU009"
+    },
+    {
+      "id": 10,
+      "product_name": "Product 10",
+      "stock_quantity": 550,
+      "price": 100,
+      "SKU_number": "SKU010"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "product_id": 1,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "product_id": 2,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "product_id": 3,
+      "quantity": 3
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "product_id": 4,
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "product_id": 5,
+      "quantity": 2
+    },
+    {
+      "id": 6,
+      "user_id": 2,
+      "product_id": 6,
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "user_id": 2,
+      "product_id": 7,
+      "quantity": 2
+    },
+    {
+      "id": 8,
+      "user_id": 2,
+      "product_id": 8,
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "user_id": 2,
+      "product_id": 9,
+      "quantity": 3
+    },
+    {
+      "id": 10,
+      "user_id": 2,
+      "product_id": 10,
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "user_id": 3,
+      "product_id": 1,
+      "quantity": 1
+    },
+    {
+      "id": 12,
+      "user_id": 3,
+      "product_id": 2,
+      "quantity": 2
+    },
+    {
+      "id": 13,
+      "user_id": 3,
+      "product_id": 3,
+      "quantity": 1
+    },
+    {
+      "id": 14,
+      "user_id": 3,
+      "product_id": 4,
+      "quantity": 3
+    },
+    {
+      "id": 15,
+      "user_id": 3,
+      "product_id": 5,
+      "quantity": 2
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "total_amount": 120,
+      "total_price": 120,
+      "billing_address": "123 First St, City, Country",
+      "status": "completed",
+      "orders": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "product_id": 1,
+          "quantity": 2
+        },
+        {
+          "id": 2,
+          "user_id": 1,
+          "product_id": 2,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "user_id": 1,
+          "product_id": 3,
+          "quantity": 3
+        },
+        {
+          "id": 4,
+          "user_id": 1,
+          "product_id": 4,
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "user_id": 1,
+          "product_id": 5,
+          "quantity": 2
+        }
+      ],
+      "user": {
+        "id": 1,
+        "name": "User One",
+        "email": "userone@example.com",
+        "phone": "123-456-7890",
+        "address": "123 First St, City, Country"
+      }
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "total_amount": 210,
+      "total_price": 210,
+      "billing_address": "456 Second St, City, Country",
+      "status": "completed",
+      "orders": [
+        {
+          "id": 6,
+          "user_id": 2,
+          "product_id": 6,
+          "quantity": 1
+        },
+        {
+          "id": 7,
+          "user_id": 2,
+          "product_id": 7,
+          "quantity": 2
+        },
+        {
+          "id": 8,
+          "user_id": 2,
+          "product_id": 8,
+          "quantity": 1
+        },
+        {
+          "id": 9,
+          "user_id": 2,
+          "product_id": 9,
+          "quantity": 3
+        },
+        {
+          "id": 10,
+          "user_id": 2,
+          "product_id": 10,
+          "quantity": 1
+        }
+      ],
+      "user": {
+        "id": 2,
+        "name": "User Two",
+        "email": "usertwo@example.com",
+        "phone": "987-654-3210",
+        "address": "456 Second St, City, Country"
+      }
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "total_amount": 90,
+      "total_price": 90,
+      "billing_address": "789 Third St, City, Country",
+      "status": "completed",
+      "orders": [
+        {
+          "id": 11,
+          "user_id": 3,
+          "product_id": 1,
+          "quantity": 1
+        },
+        {
+          "id": 12,
+          "user_id": 3,
+          "product_id": 2,
+          "quantity": 2
+        },
+        {
+          "id": 13,
+          "user_id": 3,
+          "product_id": 3,
+          "quantity": 1
+        },
+        {
+          "id": 14,
+          "user_id": 3,
+          "product_id": 4,
+          "quantity": 3
+        },
+        {
+          "id": 15,
+          "user_id": 3,
+          "product_id": 5,
+          "quantity": 2
+        }
+      ],
+      "user": {
+        "id": 3,
+        "name": "User Three",
+        "email": "userthree@example.com",
+        "phone": "456-789-1230",
+        "address": "789 Third St, City, Country"
+      }
+    }
+  ]
+}

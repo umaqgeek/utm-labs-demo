@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Cold Palmer",
+      "email": "coldest@gmail.com",
+      "phone": "555-1234",
+      "address": "24 Cold Street"
+    },
+    {
+      "id": 2,
+      "name": "Albono",
+      "email": "albono@williams.com",
+      "phone": "555-5678",
+      "address": "Grove, Wantage"
+    },
+    {
+      "id": 3,
+      "name": "Childish Gambino",
+      "email": "troy@abed.com",
+      "phone": "555-8765",
+      "address": "Glendale Community College"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "All-Terrain Vehicle",
+      "stock": 100,
+      "price": 1000.99,
+      "sku": "SKU001"
+    },
+    {
+      "id": 2,
+      "name": "Cold Suit",
+      "stock": 50,
+      "price": 20.99,
+      "sku": "SKU002"
+    },
+    {
+      "id": 3,
+      "name": "F1 Car",
+      "stock": 200,
+      "price": 5000.99,
+      "sku": "SKU003"
+    },
+    {
+      "id": 4,
+      "name": "Euro Finals Ticket",
+      "stock": 75,
+      "price": 25.99,
+      "sku": "SKU004"
+    },
+    {
+      "id": 5,
+      "name": "Electric Scooter",
+      "stock": 30,
+      "price": 25.99,
+      "sku": "SKU005"
+    },
+    {
+      "id": 6,
+      "name": "Smartwatch",
+      "stock": 120,
+      "price": 7.99,
+      "sku": "SKU006"
+    },
+    {
+      "id": 7,
+      "name": "Wireless Earbuds",
+      "stock": 90,
+      "price": 12.99,
+      "sku": "SKU007"
+    },
+    {
+      "id": 8,
+      "name": "Fitness Tracker",
+      "stock": 60,
+      "price": 18.99,
+      "sku": "SKU008"
+    },
+    {
+      "id": 9,
+      "name": "Bluetooth Speaker",
+      "stock": 110,
+      "price": 9.99,
+      "sku": "SKU009"
+    },
+    {
+      "id": 10,
+      "name": "Portable Charger",
+      "stock": 80,
+      "price": 14.99,
+      "sku": "SKU010"
+    }
+  ],
+  "orders": [
+    { "id": 1, "user_id": 1, "product_id": 1, "quantity": 2 },
+    { "id": 2, "user_id": 1, "product_id": 2, "quantity": 1 },
+    { "id": 3, "user_id": 1, "product_id": 3, "quantity": 3 },
+    { "id": 4, "user_id": 1, "product_id": 4, "quantity": 1 },
+    { "id": 5, "user_id": 1, "product_id": 5, "quantity": 2 },
+    { "id": 6, "user_id": 2, "product_id": 6, "quantity": 1 },
+    { "id": 7, "user_id": 2, "product_id": 7, "quantity": 2 },
+    { "id": 8, "user_id": 2, "product_id": 8, "quantity": 3 },
+    { "id": 9, "user_id": 2, "product_id": 9, "quantity": 1 },
+    { "id": 10, "user_id": 2, "product_id": 10, "quantity": 2 },
+    { "id": 11, "user_id": 3, "product_id": 1, "quantity": 1 },
+    { "id": 12, "user_id": 3, "product_id": 2, "quantity": 2 },
+    { "id": 13, "user_id": 3, "product_id": 3, "quantity": 1 },
+    { "id": 14, "user_id": 3, "product_id": 4, "quantity": 3 },
+    { "id": 15, "user_id": 3, "product_id": 5, "quantity": 2 }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "orders": [1, 2, 3, 4, 5],
+      "total_price": 16030.91,
+      "billing_address": "24 Cold Street"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "orders": [6, 7, 8, 9, 10],
+      "total_price": 114.91,
+      "billing_address": "Grove, Wantage"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "orders": [11, 12, 13, 14, 15],
+      "total_price": 10096.92,
+      "billing_address": "Glendale Community College"
+    }
+  ]
+}

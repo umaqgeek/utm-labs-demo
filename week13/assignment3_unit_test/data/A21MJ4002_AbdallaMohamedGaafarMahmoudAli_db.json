@@ -1,0 +1,275 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ahmad Ali",
+      "email": "ahmad.ali@example.com",
+      "phone": "012-3456789",
+      "address": "No. 12, Jalan Ampang, Kuala Lumpur"
+    },
+    {
+      "id": "2",
+      "name": "Siti Nurhaliza",
+      "email": "siti.nurhaliza@example.com",
+      "phone": "013-9876543",
+      "address": "No. 34, Jalan Bukit Bintang, Kuala Lumpur"
+    },
+    {
+      "id": "3",
+      "name": "Tan Sri Lim",
+      "email": "tan.sri.lim@example.com",
+      "phone": "014-2233445",
+      "address": "No. 56, Jalan Sultan Ismail, Kuala Lumpur"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "product_name": "Samsung Galaxy S21",
+      "stock_quantity": 50,
+      "price": 3999.00,
+      "sku": "SAMSGS21"
+    },
+    {
+      "id": "2",
+      "product_name": "Apple iPhone 13",
+      "stock_quantity": 200,
+      "price": 4999.00,
+      "sku": "IPHONE13"
+    },
+    {
+      "id": "3",
+      "product_name": "Asus ROG Laptop",
+      "stock_quantity": 100,
+      "price": 6999.00,
+      "sku": "ASUSROG"
+    },
+    {
+      "id": "4",
+      "product_name": "Sony WH-1000XM4 Headphones",
+      "stock_quantity": 300,
+      "price": 1599.00,
+      "sku": "SONYWH1000XM4"
+    },
+    {
+      "id": "5",
+      "product_name": "Apple Watch Series 7",
+      "stock_quantity": 150,
+      "price": 1999.00,
+      "sku": "APPLEWS7"
+    },
+    {
+      "id": "6",
+      "product_name": "Logitech MX Master 3 Mouse",
+      "stock_quantity": 400,
+      "price": 399.00,
+      "sku": "LOGIMX3"
+    },
+    {
+      "id": "7",
+      "product_name": "Dell UltraSharp Monitor",
+      "stock_quantity": 75,
+      "price": 1299.00,
+      "sku": "DELLUM"
+    },
+    {
+      "id": "8",
+      "product_name": "Canon PIXMA Printer",
+      "stock_quantity": 60,
+      "price": 499.00,
+      "sku": "CANONPIXMA"
+    },
+    {
+      "id": "9",
+      "product_name": "WD My Passport External Hard Drive",
+      "stock_quantity": 80,
+      "price": 299.00,
+      "sku": "WDMPHD"
+    },
+    {
+      "id": "10",
+      "product_name": "Huawei MatePad Pro",
+      "stock_quantity": 80,
+      "price": 2599.00,
+      "sku": "HUAWEIMP"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "product_id": "1",
+      "user_id": "1"
+    },
+    {
+      "id": "2",
+      "product_id": "2",
+      "user_id": "1"
+    },
+    {
+      "id": "3",
+      "product_id": "3",
+      "user_id": "1"
+    },
+    {
+      "id": "4",
+      "product_id": "4",
+      "user_id": "1"
+    },
+    {
+      "id": "5",
+      "product_id": "5",
+      "user_id": "1"
+    },
+    {
+      "id": "6",
+      "product_id": "6",
+      "user_id": "2"
+    },
+    {
+      "id": "7",
+      "product_id": "7",
+      "user_id": "2"
+    },
+    {
+      "id": "8",
+      "product_id": "8",
+      "user_id": "2"
+    },
+    {
+      "id": "9",
+      "product_id": "9",
+      "user_id": "2"
+    },
+    {
+      "id": "10",
+      "product_id": "10",
+      "user_id": "2"
+    },
+    {
+      "id": "11",
+      "product_id": "1",
+      "user_id": "3"
+    },
+    {
+      "id": "12",
+      "product_id": "2",
+      "user_id": "3"
+    },
+    {
+      "id": "13",
+      "product_id": "3",
+      "user_id": "3"
+    },
+    {
+      "id": "14",
+      "product_id": "4",
+      "user_id": "3"
+    },
+    {
+      "id": "15",
+      "product_id": "5",
+      "user_id": "3"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "user_id": "1",
+      "total_price": 17595.00,
+      "billing_address": "No. 12, Jalan Ampang, Kuala Lumpur",
+      "orders": [
+        {
+          "id": "1",
+          "product_id": "1",
+          "user_id": "1"
+        },
+        {
+          "id": "2",
+          "product_id": "2",
+          "user_id": "1"
+        },
+        {
+          "id": "3",
+          "product_id": "3",
+          "user_id": "1"
+        },
+        {
+          "id": "4",
+          "product_id": "4",
+          "user_id": "1"
+        },
+        {
+          "id": "5",
+          "product_id": "5",
+          "user_id": "1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "user_id": "2",
+      "total_price": 3695.00,
+      "billing_address": "No. 34, Jalan Bukit Bintang, Kuala Lumpur",
+      "orders": [
+        {
+          "id": "6",
+          "product_id": "6",
+          "user_id": "2"
+        },
+        {
+          "id": "7",
+          "product_id": "7",
+          "user_id": "2"
+        },
+        {
+          "id": "8",
+          "product_id": "8",
+          "user_id": "2"
+        },
+        {
+          "id": "9",
+          "product_id": "9",
+          "user_id": "2"
+        },
+        {
+          "id": "10",
+          "product_id": "10",
+          "user_id": "2"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "user_id": "3",
+      "total_price": 17895.00,
+      "billing_address": "No. 56, Jalan Sultan Ismail, Kuala Lumpur",
+      "orders": [
+        {
+          "id": "11",
+          "product_id": "1",
+          "user_id": "3"
+        },
+        {
+          "id": "12",
+          "product_id": "2",
+          "user_id": "3"
+        },
+        {
+          "id": "13",
+          "product_id": "3",
+          "user_id": "3"
+        },
+        {
+          "id": "14",
+          "product_id": "4",
+          "user_id": "3"
+        },
+        {
+          "id": "15",
+          "product_id": "5",
+          "user_id": "3"
+        }
+      ]
+    }
+  ]
+}

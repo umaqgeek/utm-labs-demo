@@ -1,0 +1,636 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ali Johan",
+      "email": "alijo@utm.my",
+      "phone": "012-3456789",
+      "address": "Kuala Lumpur, Malaysia"
+    },
+    {
+      "id": 2,
+      "name": "John Cena",
+      "email": "john@utm.my",
+      "phone": "01908765532",
+      "address": "Kuala Lumpur, Malaysia"
+    },
+    {
+      "id": 3,
+      "name": "Mohamed Avdol",
+      "email": "avdol@utm.my",
+      "phone": "013-21456789",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 2999.99,
+      "quantity": 10,
+      "sku_number": "3134"
+    },
+    {
+      "id": 2,
+      "name": "Phone",
+      "price": 1999.50,
+      "quantity": 10,
+      "sku_number": "1412"
+    },
+    {
+      "id": 3,
+      "name": "Desk",
+      "price": 500.00,
+      "quantity": 10,
+      "sku_number": "1122"
+    },
+    {
+      "id": 4,
+      "name": "Book",
+      "price": 45.50,
+      "quantity": 10,
+      "sku_number": "3456"
+    },
+    {
+      "id": 5,
+      "name": "Magazine",
+      "price": 45.50,
+      "quantity": 10,
+      "sku_number": "5213"
+    },
+    {
+      "id": 6,
+      "name": "Notebook",
+      "price": 2299.99,
+      "quantity": 10,
+      "sku_number": "1185"
+    },
+    {
+      "id": 7,
+      "name": "GPU",
+      "price": 1500.00,
+      "quantity": 10,
+      "sku_number": "3512"
+    },
+    {
+      "id": 8,
+      "name": "Speaker",
+      "price": 200.00,
+      "quantity": 10,
+      "sku_number": "1125"
+    },
+    {
+      "id": 9,
+      "name": "Microphone",
+      "price": 105.50,
+      "quantity": 10,
+      "sku_number": "5621"
+    },
+    {
+      "id": 10,
+      "name": "Headset",
+      "price": 249.99,
+      "quantity": 10,
+      "sku_number": "1111"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "user": {
+        "id": 1,
+        "name": "Ali Johan",
+        "email": "alijo@utm.my",
+        "phone": "012-3456789",
+        "address": "Kuala Lumpur, Malaysia"
+      },
+      "orders": [
+        {
+          "id": 1,
+          "product": {
+            "id": 1,
+            "name": "Laptop",
+            "price": 2999.99,
+            "quantity": 10,
+            "sku_number": "3134"
+          },
+          "user":     {
+            "id": 1,
+            "name": "Ali Johan",
+            "email": "alijo@utm.my",
+            "phone": "012-3456789",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        },{
+          "id": 2,
+          "product":    {
+            "id": 2,
+            "name": "Phone",
+            "price": 1999.50,
+            "quantity": 10,
+            "sku_number": "1412"
+          },
+          "user":     {
+            "id": 1,
+            "name": "Ali Johan",
+            "email": "alijo@utm.my",
+            "phone": "012-3456789",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        },{
+          "id": 3,
+          "product":    {
+            "id": 3,
+            "name": "Desk",
+            "price": 500.00,
+            "quantity": 10,
+            "sku_number": "1122"
+          },
+          "user":     {
+            "id": 1,
+            "name": "Ali Johan",
+            "email": "alijo@utm.my",
+            "phone": "012-3456789",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        },{
+          "id": 4,
+          "product":   {
+            "id": 4,
+            "name": "Book",
+            "price": 45.50,
+            "quantity": 10,
+            "sku_number": "3456"
+          },
+          "user":     {
+            "id": 1,
+            "name": "Ali Johan",
+            "email": "alijo@utm.my",
+            "phone": "012-3456789",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        },{
+          "id": 5,
+          "product":     {
+            "id": 5,
+            "name": "Magazine",
+            "price": 45.50,
+            "quantity": 10,
+            "sku_number": "5213"
+          },
+          "user":     {
+            "id": 1,
+            "name": "Ali Johan",
+            "email": "alijo@utm.my",
+            "phone": "012-3456789",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        }
+      ],
+      "total": 3049.98,
+      "address": "Kota Bharu, Kelantan"
+    },
+    {
+      "id": 2,
+      "user":  {
+        "id": 2,
+        "name": "John Cena",
+        "email": "john@utm.my",
+        "phone": "01908765532",
+        "address": "Kuala Lumpur, Malaysia"
+      },
+      "orders": [
+        {
+          "id": 6,
+          "product":  {
+            "id": 6,
+            "name": "Notebook",
+            "price": 2299.99,
+            "quantity": 10,
+            "sku_number": "1185"
+          },
+          "user":     {
+            "id": 2,
+            "name": "John Cena",
+            "email": "john@utm.my",
+            "phone": "01908765532",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        },{
+          "id": 7,
+          "product":   {
+            "id": 7,
+            "name": "GPU",
+            "price": 1500.00,
+            "quantity": 10,
+            "sku_number": "3512"
+          },
+          "user":     {
+            "id": 2,
+            "name": "John Cena",
+            "email": "john@utm.my",
+            "phone": "01908765532",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        },{
+          "id": 8,
+          "product":    {
+            "id": 8,
+            "name": "Speaker",
+            "price": 200.00,
+            "quantity": 10,
+            "sku_number": "1125"
+          },
+          "user":     {
+            "id": 2,
+            "name": "John Cena",
+            "email": "john@utm.my",
+            "phone": "01908765532",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        },{
+          "id": 9,
+          "product":   {
+            "id": 9,
+            "name": "Microphone",
+            "price": 105.50,
+            "quantity": 10,
+            "sku_number": "5621"
+          },
+          "user":     {
+            "id": 2,
+            "name": "John Cena",
+            "email": "john@utm.my",
+            "phone": "01908765532",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        },{
+          "id": 10,
+          "product":    {
+            "id": 10,
+            "name": "Headset",
+            "price": 249.99,
+            "quantity": 10,
+            "sku_number": "1111"
+          },
+          "user":     {
+            "id": 2,
+            "name": "John Cena",
+            "email": "john@utm.my",
+            "phone": "01908765532",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        }
+      ],
+      "total_price": 5290.49,
+      "billing_address": "Setapak, Kualau Lumpur"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 3,
+        "name": "Mohamed Avdol",
+        "email": "avdol@utm.my",
+        "phone": "013-21456789",
+        "address": "Kuala Lumpur, Malaysia"
+      },
+      "orders": [
+        {
+          "id": 11,
+          "product":{
+            "id": 1,
+            "name": "Laptop",
+            "price": 2999.99,
+            "quantity": 10,
+            "sku_number": "3134"
+          },
+          "user":  
+          {
+            "id": 3,
+            "name": "Mohamed Avdol",
+            "email": "avdol@utm.my",
+            "phone": "013-21456789",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        },{
+          "id": 12,
+          "product":  {
+            "id": 2,
+            "name": "Phone",
+            "price": 1999.50,
+            "quantity": 10,
+            "sku_number": "1412"
+          },
+          "user":  
+          {
+            "id": 3,
+            "name": "Mohamed Avdol",
+            "email": "avdol@utm.my",
+            "phone": "013-21456789",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        },{
+          "id": 13,
+          "product":    {
+            "id": 3,
+            "name": "Desk",
+            "price": 500.00,
+            "quantity": 10,
+            "sku_number": "1122"
+          },
+          "user":  
+          {
+            "id": 3,
+            "name": "Mohamed Avdol",
+            "email": "avdol@utm.my",
+            "phone": "013-21456789",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        },{
+          "id": 14,
+          "product":   {
+            "id": 4,
+            "name": "Book",
+            "price": 45.50,
+            "quantity": 10,
+            "sku_number": "3456"
+          },
+          "user":  
+          {
+            "id": 3,
+            "name": "Mohamed Avdol",
+            "email": "avdol@utm.my",
+            "phone": "013-21456789",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        },{
+          "id": 15,
+          "product":  {
+            "id": 5,
+            "name": "Magazine",
+            "price": 45.50,
+            "quantity": 10,
+            "sku_number": "5213"
+          },
+          "user":  
+          {
+            "id": 3,
+            "name": "Mohamed Avdol",
+            "email": "avdol@utm.my",
+            "phone": "013-21456789",
+            "address": "Kuala Lumpur, Malaysia"
+          }
+        } 
+      ],
+      "total_price": 4950.49,
+      "billing_address": "Kuching, Sarawak"
+    }
+  ],
+  "orders": [ {
+    "id": 1,
+    "product": {
+      "id": 1,
+      "name": "Laptop",
+      "price": 2999.99,
+      "quantity": 10,
+      "sku_number": "3134"
+    },
+    "user":     {
+      "id": 1,
+      "name": "Ali Johan",
+      "email": "alijo@utm.my",
+      "phone": "012-3456789",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 2,
+    "product":    {
+      "id": 2,
+      "name": "Phone",
+      "price": 1999.50,
+      "quantity": 10,
+      "sku_number": "1412"
+    },
+    "user":     {
+      "id": 1,
+      "name": "Ali Johan",
+      "email": "alijo@utm.my",
+      "phone": "012-3456789",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 3,
+    "product":    {
+      "id": 3,
+      "name": "Desk",
+      "price": 500.00,
+      "quantity": 10,
+      "sku_number": "1122"
+    },
+    "user":     {
+      "id": 1,
+      "name": "Ali Johan",
+      "email": "alijo@utm.my",
+      "phone": "012-3456789",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 4,
+    "product":   {
+      "id": 4,
+      "name": "Book",
+      "price": 45.50,
+      "quantity": 10,
+      "sku_number": "3456"
+    },
+    "user":     {
+      "id": 1,
+      "name": "Ali Johan",
+      "email": "alijo@utm.my",
+      "phone": "012-3456789",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 5,
+    "product":     {
+      "id": 5,
+      "name": "Magazine",
+      "price": 45.50,
+      "quantity": 10,
+      "sku_number": "5213"
+    },
+    "user":     {
+      "id": 1,
+      "name": "Ali Johan",
+      "email": "alijo@utm.my",
+      "phone": "012-3456789",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 6,
+    "product":  {
+      "id": 6,
+      "name": "Notebook",
+      "price": 2299.99,
+      "quantity": 10,
+      "sku_number": "1185"
+    },
+    "user":     {
+      "id": 2,
+      "name": "John Cena",
+      "email": "john@utm.my",
+      "phone": "01908765532",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 7,
+    "product":   {
+      "id": 7,
+      "name": "GPU",
+      "price": 1500.00,
+      "quantity": 10,
+      "sku_number": "3512"
+    },
+    "user":     {
+      "id": 2,
+      "name": "John Cena",
+      "email": "john@utm.my",
+      "phone": "01908765532",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 8,
+    "product":    {
+      "id": 8,
+      "name": "Speaker",
+      "price": 200.00,
+      "quantity": 10,
+      "sku_number": "1125"
+    },
+    "user":     {
+      "id": 2,
+      "name": "John Cena",
+      "email": "john@utm.my",
+      "phone": "01908765532",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 9,
+    "product":   {
+      "id": 9,
+      "name": "Microphone",
+      "price": 105.50,
+      "quantity": 10,
+      "sku_number": "5621"
+    },
+    "user":     {
+      "id": 2,
+      "name": "John Cena",
+      "email": "john@utm.my",
+      "phone": "01908765532",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 10,
+    "product":    {
+      "id": 10,
+      "name": "Headset",
+      "price": 249.99,
+      "quantity": 10,
+      "sku_number": "1111"
+    },
+    "user":     {
+      "id": 2,
+      "name": "John Cena",
+      "email": "john@utm.my",
+      "phone": "01908765532",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 11,
+    "product":{
+      "id": 1,
+      "name": "Laptop",
+      "price": 2999.99,
+      "quantity": 10,
+      "sku_number": "3134"
+    },
+    "user":  
+    {
+      "id": 3,
+      "name": "Mohamed Avdol",
+      "email": "avdol@utm.my",
+      "phone": "013-21456789",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 12,
+    "product":  {
+      "id": 2,
+      "name": "Phone",
+      "price": 1999.50,
+      "quantity": 10,
+      "sku_number": "1412"
+    },
+    "user":  
+    {
+      "id": 3,
+      "name": "Mohamed Avdol",
+      "email": "avdol@utm.my",
+      "phone": "013-21456789",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 13,
+    "product":    {
+      "id": 3,
+      "name": "Desk",
+      "price": 500.00,
+      "quantity": 10,
+      "sku_number": "1122"
+    },
+    "user":  
+    {
+      "id": 3,
+      "name": "Mohamed Avdol",
+      "email": "avdol@utm.my",
+      "phone": "013-21456789",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 14,
+    "product":   {
+      "id": 4,
+      "name": "Book",
+      "price": 45.50,
+      "quantity": 10,
+      "sku_number": "3456"
+    },
+    "user":  
+    {
+      "id": 3,
+      "name": "Mohamed Avdol",
+      "email": "avdol@utm.my",
+      "phone": "013-21456789",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  },{
+    "id": 15,
+    "product":  {
+      "id": 5,
+      "name": "Magazine",
+      "price": 45.50,
+      "quantity": 10,
+      "sku_number": "5213"
+    },
+    "user":  
+    {
+      "id": 3,
+      "name": "Mohamed Avdol",
+      "email": "avdol@utm.my",
+      "phone": "013-21456789",
+      "address": "Kuala Lumpur, Malaysia"
+    }
+  } 
+]
+}

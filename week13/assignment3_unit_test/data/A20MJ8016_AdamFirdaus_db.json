@@ -1,0 +1,230 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Adam Firdaus",
+      "email": "addyadam7@gmail.com",
+      "phone": "0182953706",
+      "address": "E-0-21, Pesona Villa"
+    },
+    {
+      "id": 2,
+      "name": "Fazli Tajudin",
+      "email": "fazlitj@gmail.com",
+      "phone": "234-567-8901",
+      "address": "Jalan Sogu Sutera, Batu Pahat"
+    },
+    {
+      "id": 3,
+      "name": "Fahmi Haiqal",
+      "email": "fahmihaiqal@gmail.com",
+      "phone": "345-678-9012",
+      "address": "Mont Kiara, Kuala Lumpur"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Laptop",
+      "stockQuantity": 100,
+      "price": 2000.00,
+      "sku": "SKU001"
+    },
+    {
+      "id": 2,
+      "productName": "T-Shirt",
+      "stockQuantity": 150,
+      "price": 19.99,
+      "sku": "SKU002"
+    },
+    {
+      "id": 3,
+      "productName": "Phone Case",
+      "stockQuantity": 200,
+      "price": 29.99,
+      "sku": "SKU003"
+    },
+    {
+      "id": 4,
+      "productName": "Wireless Charger",
+      "stockQuantity": 80,
+      "price": 39.99,
+      "sku": "SKU004"
+    },
+    {
+      "id": 5,
+      "productName": "Bluetooth Headphones",
+      "stockQuantity": 60,
+      "price": 59.99,
+      "sku": "SKU005"
+    },
+    {
+      "id": 6,
+      "productName": "Coffee Maker",
+      "stockQuantity": 120,
+      "price": 89.99,
+      "sku": "SKU006"
+    },
+    {
+      "id": 7,
+      "productName": "Smartwatch",
+      "stockQuantity": 90,
+      "price": 199.99,
+      "sku": "SKU007"
+    },
+    {
+      "id": 8,
+      "productName": "Backpack",
+      "stockQuantity": 130,
+      "price": 49.99,
+      "sku": "SKU008"
+    },
+    {
+      "id": 9,
+      "productName": "Running Shoes",
+      "stockQuantity": 70,
+      "price": 79.99,
+      "sku": "SKU009"
+    },
+    {
+      "id": 10,
+      "productName": "Electric Toothbrush",
+      "stockQuantity": 110,
+      "price": 99.99,
+      "sku": "SKU010"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "totalPrice": 84.95,
+      "billingAddress": "E-0-21, Pesona Villa",
+      "orders": [
+        { "productName": "Laptop", "quantity": 2 },
+        { "productName": "T-Shirt", "quantity": 1 },
+        { "productName": "Phone Case", "quantity": 1 },
+        { "productName": "Wireless Charger", "quantity": 3 },
+        { "productName": "Bluetooth Headphones", "quantity": 1 }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "totalPrice": 114.95,
+      "billingAddress": "Jalan Sogu Sutera, Batu Pahat",
+      "orders": [
+        { "productName": "Coffee Maker", "quantity": 2 },
+        { "productName": "Smartwatch", "quantity": 1 },
+        { "productName": "Backpack", "quantity": 2 },
+        { "productName": "Running Shoes", "quantity": 1 },
+        { "productName": "Electric Toothbrush", "quantity": 1 }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "totalPrice": 139.95,
+      "billingAddress": "Mont Kiara, Kuala Lumpur",
+      "orders": [
+        { "productName": "Laptop", "quantity": 3 },
+        { "productName": "T-Shirt", "quantity": 2 },
+        { "productName": "Phone Case", "quantity": 1 },
+        { "productName": "Wireless Charger", "quantity": 2 },
+        { "productName": "Bluetooth Headphones", "quantity": 2 }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 1,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 2,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "productId": 3,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "productId": 4,
+      "quantity": 3
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "productId": 5,
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "productId": 6,
+      "quantity": 2
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "productId": 7,
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "productId": 8,
+      "quantity": 2
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "productId": 9,
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "userId": 2,
+      "productId": 10,
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "userId": 3,
+      "productId": 1,
+      "quantity": 3
+    },
+    {
+      "id": 12,
+      "userId": 3,
+      "productId": 2,
+      "quantity": 2
+    },
+    {
+      "id": 13,
+      "userId": 3,
+      "productId": 3,
+      "quantity": 1
+    },
+    {
+      "id": 14,
+      "userId": 3,
+      "productId": 4,
+      "quantity": 2
+    },
+    {
+      "id": 15,
+      "userId": 3,
+      "productId": 5,
+      "quantity": 2
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Youssef Moustafa",
+            "email": "youssef@utm.com",
+            "phone": "123-456-7890",
+            "address": "12 Jalan Ampang, 50450 Kuala Lumpur"
+        },
+        {
+            "id": 2,
+            "name": "Potato Man",
+            "email": "potato@utm.com",
+            "phone": "234-567-8901",
+            "address": "15 Jalan Raja Chulan, 50200 Kuala Lumpur"
+        },
+        {
+            "id": 3,
+            "name": "Carrot Jim",
+            "email": "jim@utm.com",
+            "phone": "345-678-9012",
+            "address": "22 Jalan Bukit Bintang, 55100 Kuala Lumpur"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Apple",
+            "stock": 50,
+            "price": 0.99,
+            "sku": "FRU-123"
+        },
+        {
+            "id": 2,
+            "name": "Banana",
+            "stock": 60,
+            "price": 0.59,
+            "sku": "FRU-456"
+        },
+        {
+            "id": 3,
+            "name": "Carrot",
+            "stock": 30,
+            "price": 0.29,
+            "sku": "VEG-789"
+        },
+        {
+            "id": 4,
+            "name": "Broccoli",
+            "stock": 20,
+            "price": 1.99,
+            "sku": "VEG-012"
+        },
+        {
+            "id": 5,
+            "name": "Chicken Breast",
+            "stock": 25,
+            "price": 5.99,
+            "sku": "MEAT-345"
+        },
+        {
+            "id": 6,
+            "name": "Milk",
+            "stock": 40,
+            "price": 2.99,
+            "sku": "DAI-678"
+        },
+        {
+            "id": 7,
+            "name": "Bread",
+            "stock": 35,
+            "price": 1.99,
+            "sku": "BAK-901"
+        },
+        {
+            "id": 8,
+            "name": "Eggs",
+            "stock": 30,
+            "price": 2.49,
+            "sku": "DAI-234"
+        },
+        {
+            "id": 9,
+            "name": "Orange Juice",
+            "stock": 45,
+            "price": 3.99,
+            "sku": "BEV-567"
+        },
+        {
+            "id": 10,
+            "name": "Rice",
+            "stock": 50,
+            "price": 1.29,
+            "sku": "GRO-890"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "productId": 1,
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "productId": 2,
+            "userId": 1
+        },
+        {
+            "id": 3,
+            "productId": 3,
+            "userId": 1
+        },
+        {
+            "id": 4,
+            "productId": 4,
+            "userId": 1
+        },
+        {
+            "id": 5,
+            "productId": 5,
+            "userId": 1
+        },
+        {
+            "id": 6,
+            "productId": 6,
+            "userId": 2
+        },
+        {
+            "id": 7,
+            "productId": 7,
+            "userId": 2
+        },
+        {
+            "id": 8,
+            "productId": 8,
+            "userId": 2
+        },
+        {
+            "id": 9,
+            "productId": 9,
+            "userId": 2
+        },
+        {
+            "id": 10,
+            "productId": 10,
+            "userId": 2
+        },
+        {
+            "id": 11,
+            "productId": 1,
+            "userId": 3
+        },
+        {
+            "id": 12,
+            "productId": 3,
+            "userId": 3
+        },
+        {
+            "id": 13,
+            "productId": 4,
+            "userId": 3
+        },
+        {
+            "id": 14,
+            "productId": 5,
+            "userId": 3
+        },
+        {
+            "id": 15,
+            "productId": 7,
+            "userId": 3
+        }
+    ],
+    "transactions": [
+        {
+            "id": 1,
+            "userId": 1,
+            "orders": [
+                {"productId": 1},
+                {"productId": 2},
+                {"productId": 3},
+                {"productId": 4},
+                {"productId": 5}
+            ],
+            "billingAddress": "12 Jalan Ampang, 50450 Kuala Lumpur",
+            "totalPrice": 16.83
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "orders": [
+                {"productId": 6},
+                {"productId": 7},
+                {"productId": 8},
+                {"productId": 9},
+                {"productId": 10}
+            ],
+            "billingAddress": "15 Jalan Raja Chulan, 50200 Kuala Lumpur",
+            "totalPrice": 15.74
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "orders": [
+                {"productId": 1},
+                {"productId": 3},
+                {"productId": 4},
+                {"productId": 5},
+                {"productId": 7}
+            ],
+            "billingAddress": "22 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+            "totalPrice": 18.23
+        }
+    ]
+}

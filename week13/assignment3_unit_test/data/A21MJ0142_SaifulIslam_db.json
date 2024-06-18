@@ -1,0 +1,42 @@
+{
+    "users": [
+      { "id": 1, "name": "Ali Johan", "email": "alijo@utm.my", "phone": "0123456789", "address": "123 Street A" },
+      { "id": 2, "name": "Seman Rihan", "email": "semrihan@utm.my", "phone": "0987654321", "address": "456 Street B" },
+      { "id": 3, "name": "Sara Tan", "email": "saratan@utm.my", "phone": "1122334455", "address": "789 Street C" }
+    ],
+    "products": [
+      { "id": 1, "name": "Laptop", "stock_quantity": 10, "price": 2999.99, "sku": "LAP123" },
+      { "id": 2, "name": "Phone", "stock_quantity": 25, "price": 1999.50, "sku": "PHO456" },
+      { "id": 3, "name": "Desk", "stock_quantity": 15, "price": 500.00, "sku": "DES789" },
+      { "id": 4, "name": "Chair", "stock_quantity": 30, "price": 150.00, "sku": "CHA012" },
+      { "id": 5, "name": "Monitor", "stock_quantity": 20, "price": 799.99, "sku": "MON345" },
+      { "id": 6, "name": "Keyboard", "stock_quantity": 50, "price": 99.99, "sku": "KEY678" },
+      { "id": 7, "name": "Mouse", "stock_quantity": 60, "price": 49.99, "sku": "MOU901" },
+      { "id": 8, "name": "Printer", "stock_quantity": 5, "price": 399.99, "sku": "PRI234" },
+      { "id": 9, "name": "Tablet", "stock_quantity": 25, "price": 999.99, "sku": "TAB567" },
+      { "id": 10, "name": "Webcam", "stock_quantity": 40, "price": 149.99, "sku": "WEB890" }
+    ],
+    "transactions": [
+      { "id": 1, "userId": 1, "orders": [1, 2, 3, 4, 5], "total_price": 8549.96, "billing_address": "123 Street A" },
+      { "id": 2, "userId": 2, "orders": [6, 7, 8, 9, 10], "total_price": 4599.98, "billing_address": "456 Street B" },
+      { "id": 3, "userId": 3, "orders": [11, 12, 13, 14, 15], "total_price": 6849.95, "billing_address": "789 Street C" }
+    ],
+    "orders": [
+      { "id": 1, "transactionId": 1, "productId": 1, "quantity": 1, "price": 2999.99 },
+      { "id": 2, "transactionId": 1, "productId": 2, "quantity": 1, "price": 1999.50 },
+      { "id": 3, "transactionId": 1, "productId": 3, "quantity": 1, "price": 500.00 },
+      { "id": 4, "transactionId": 1, "productId": 4, "quantity": 1, "price": 150.00 },
+      { "id": 5, "transactionId": 1, "productId": 5, "quantity": 1, "price": 799.99 },
+      { "id": 6, "transactionId": 2, "productId": 6, "quantity": 1, "price": 99.99 },
+      { "id": 7, "transactionId": 2, "productId": 7, "quantity": 1, "price": 49.99 },
+      { "id": 8, "transactionId": 2, "productId": 8, "quantity": 1, "price": 399.99 },
+      { "id": 9, "transactionId": 2, "productId": 9, "quantity": 1, "price": 999.99 },
+      { "id": 10, "transactionId": 2, "productId": 10, "quantity": 1, "price": 149.99 },
+      { "id": 11, "transactionId": 3, "productId": 1, "quantity": 1, "price": 2999.99 },
+      { "id": 12, "transactionId": 3, "productId": 2, "quantity": 1, "price": 1999.50 },
+      { "id": 13, "transactionId": 3, "productId": 3, "quantity": 1, "price": 500.00 },
+      { "id": 14, "transactionId": 3, "productId": 4, "quantity": 1, "price": 150.00 },
+      { "id": 15, "transactionId": 3, "productId": 5, "quantity": 1, "price": 799.99 }
+    ]
+  }
+  

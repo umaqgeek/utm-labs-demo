@@ -1,0 +1,138 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Scarlett Johansson",
+        "email": "scarlett@gmail.com",
+        "phone": "555-666-777",
+        "address": "123 Glamour St, Los Angeles"
+      },
+      {
+        "id": 2,
+        "name": "Emma Watson",
+        "email": "emma@gmail.com",
+        "phone": "111-222-333",
+        "address": "456 Beauty St, London"
+      },
+      {
+        "id": 3,
+        "name": "Jennifer Lawrence",
+        "email": "jennifer@gmail.com",
+        "phone": "878-234-545",
+        "address": "789 Star St, New York"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "productName": "Lipstick",
+        "stockQuantity": 150,
+        "price": 20.50,
+        "sku": "SKU001"
+      },
+      {
+        "id": 2,
+        "productName": "Foundation",
+        "stockQuantity": 100,
+        "price": 35.20,
+        "sku": "SKU002"
+      },
+      {
+        "id": 3,
+        "productName": "Mascara",
+        "stockQuantity": 200,
+        "price": 15.00,
+        "sku": "SKU003"
+      },
+      {
+        "id": 4,
+        "productName": "Blush",
+        "stockQuantity": 80,
+        "price": 25.50,
+        "sku": "SKU004"
+      },
+      {
+        "id": 5,
+        "productName": "Eyeshadow Palette",
+        "stockQuantity": 60,
+        "price": 45.90,
+        "sku": "SKU005"
+      },
+      {
+        "id": 6,
+        "productName": "Highlighter",
+        "stockQuantity": 90,
+        "price": 30.99,
+        "sku": "SKU006"
+      },
+      {
+        "id": 7,
+        "productName": "Concealer",
+        "stockQuantity": 110,
+        "price": 18.50,
+        "sku": "SKU007"
+      },
+      {
+        "id": 8,
+        "productName": "Setting Spray",
+        "stockQuantity": 130,
+        "price": 22.99,
+        "sku": "SKU008"
+      },
+      {
+        "id": 9,
+        "productName": "Primer",
+        "stockQuantity": 120,
+        "price": 28.99,
+        "sku": "SKU009"
+      },
+      {
+        "id": 10,
+        "productName": "Lip Gloss",
+        "stockQuantity": 140,
+        "price": 15.99,
+        "sku": "SKU010"
+      }
+    ],
+    "orders": [
+      { "id": 1, "userId": 1, "productId": 1, "quantity": 2 },
+      { "id": 2, "userId": 1, "productId": 2, "quantity": 1 },
+      { "id": 3, "userId": 1, "productId": 3, "quantity": 3 },
+      { "id": 4, "userId": 1, "productId": 4, "quantity": 1 },
+      { "id": 5, "userId": 1, "productId": 5, "quantity": 1 },
+      { "id": 6, "userId": 2, "productId": 6, "quantity": 2 },
+      { "id": 7, "userId": 2, "productId": 7, "quantity": 3 },
+      { "id": 8, "userId": 2, "productId": 8, "quantity": 1 },
+      { "id": 9, "userId": 2, "productId": 9, "quantity": 2 },
+      { "id": 10, "userId": 2, "productId": 10, "quantity": 4 },
+      { "id": 11, "userId": 3, "productId": 1, "quantity": 1 },
+      { "id": 12, "userId": 3, "productId": 2, "quantity": 2 },
+      { "id": 13, "userId": 3, "productId": 3, "quantity": 3 },
+      { "id": 14, "userId": 3, "productId": 4, "quantity": 2 },
+      { "id": 15, "userId": 3, "productId": 5, "quantity": 3 }
+    ],
+    "transactions": [
+      {
+        "id": 1,
+        "userId": 1,
+        "orders": [1, 2, 3, 4, 5],
+        "totalPrice": 162.70,
+        "billingAddress": "123 Glamour St, Los Angeles"
+      },
+      {
+        "id": 2,
+        "userId": 2,
+        "orders": [6, 7, 8, 9, 10],
+        "totalPrice": 257.45,
+        "billingAddress": "456 Beauty St, London"
+      },
+      {
+        "id": 3,
+        "userId": 3,
+        "orders": [11, 12, 13, 14, 15],
+        "totalPrice": 289.38,
+        "billingAddress": "789 Star St, New York"
+      }
+    ]
+  }
+  

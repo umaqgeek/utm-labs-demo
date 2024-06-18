@@ -1,0 +1,260 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ahmad",
+      "email": "ahmad@example.com",
+      "phone": "012-345-6789",
+      "address": "123 Jalan Besar, Kuala Lumpur, Malaysia"
+    },
+    {
+      "id": 2,
+      "name": "Siti",
+      "email": "siti@example.com",
+      "phone": "098-765-4321",
+      "address": "456 Jalan Kecil, Penang, Malaysia"
+    },
+    {
+      "id": 3,
+      "name": "Raj",
+      "email": "raj@example.com",
+      "phone": "555-555-5555",
+      "address": "789 Jalan Sederhana, Johor Bahru, Malaysia"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Product A",
+      "stockQuantity": 100,
+      "price": 10.99,
+      "sku": "SKU001"
+    },
+    {
+      "id": 2,
+      "productName": "Product B",
+      "stockQuantity": 150,
+      "price": 12.99,
+      "sku": "SKU002"
+    },
+    {
+      "id": 3,
+      "productName": "Product C",
+      "stockQuantity": 200,
+      "price": 15.99,
+      "sku": "SKU003"
+    },
+    {
+      "id": 4,
+      "productName": "Product D",
+      "stockQuantity": 50,
+      "price": 9.99,
+      "sku": "SKU004"
+    },
+    {
+      "id": 5,
+      "productName": "Product E",
+      "stockQuantity": 75,
+      "price": 19.99,
+      "sku": "SKU005"
+    },
+    {
+      "id": 6,
+      "productName": "Product F",
+      "stockQuantity": 60,
+      "price": 29.99,
+      "sku": "SKU006"
+    },
+    {
+      "id": 7,
+      "productName": "Product G",
+      "stockQuantity": 80,
+      "price": 39.99,
+      "sku": "SKU007"
+    },
+    {
+      "id": 8,
+      "productName": "Product H",
+      "stockQuantity": 90,
+      "price": 49.99,
+      "sku": "SKU008"
+    },
+    {
+      "id": 9,
+      "productName": "Product I",
+      "stockQuantity": 110,
+      "price": 59.99,
+      "sku": "SKU009"
+    },
+    {
+      "id": 10,
+      "productName": "Product J",
+      "stockQuantity": 120,
+      "price": 69.99,
+      "sku": "SKU010"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "orders": [
+        {
+          "id": 1,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "productId": 2
+        },
+        {
+          "id": 3,
+          "productId": 3
+        },
+        {
+          "id": 4,
+          "productId": 4
+        },
+        {
+          "id": 5,
+          "productId": 5
+        }
+      ],
+      "totalPrice": 74.95,
+      "billingAddress": "123 Jalan Besar, Kuala Lumpur, Malaysia"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "orders": [
+        {
+          "id": 6,
+          "productId": 6
+        },
+        {
+          "id": 7,
+          "productId": 7
+        },
+        {
+          "id": 8,
+          "productId": 8
+        },
+        {
+          "id": 9,
+          "productId": 9
+        },
+        {
+          "id": 10,
+          "productId": 10
+        }
+      ],
+      "totalPrice": 112.95,
+      "billingAddress": "456 Jalan Kecil, Penang, Malaysia"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "orders": [
+        {
+          "id": 11,
+          "productId": 1
+        },
+        {
+          "id": 12,
+          "productId": 2
+        },
+        {
+          "id": 13,
+          "productId": 3
+        },
+        {
+          "id": 14,
+          "productId": 4
+        },
+        {
+          "id": 15,
+          "productId": 5
+        }
+      ],
+      "totalPrice": 149.95,
+      "billingAddress": "789 Jalan Sederhana, Johor Bahru, Malaysia"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 2
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "productId": 3
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "productId": 4
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "productId": 5
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "productId": 6
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "productId": 7
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "productId": 8
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "productId": 9
+    },
+    {
+      "id": 10,
+      "userId": 2,
+      "productId": 10
+    },
+    {
+      "id": 11,
+      "userId": 3,
+      "productId": 1
+    },
+    {
+      "id": 12,
+      "userId": 3,
+      "productId": 2
+    },
+    {
+      "id": 13,
+      "userId": 3,
+      "productId": 3
+    },
+    {
+      "id": 14,
+      "userId": 3,
+      "productId": 4
+    },
+    {
+      "id": 15,
+      "userId": 3,
+      "productId": 5
+    }
+  ]
+}

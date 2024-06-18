@@ -1,0 +1,440 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Adrian Norman",
+      "email": "adriannorman@example.com",
+      "phone": "011-35344818",
+      "address": "Ampang"
+    },
+    {
+      "id": 2,
+      "name": "John Cena",
+      "email": "johncena@example.com",
+      "phone": "012-34567891",
+      "address": "WWE Raw"
+    },
+    {
+      "id": 3,
+      "name": "Randy Orton",
+      "email": "randyorton@example.com",
+      "phone": "019-876543210",
+      "address": "WWE Smackdown"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "WWE Title",
+      "stock_quantity": 100,
+      "price": 9.99,
+      "sku": "SKU001"
+    },
+    {
+      "id": 2,
+      "name": "Heavyweight Title",
+      "stock_quantity": 50,
+      "price": 19.99,
+      "sku": "SKU002"
+    },
+    {
+      "id": 3,
+      "name": "USA Title",
+      "stock_quantity": 75,
+      "price": 14.99,
+      "sku": "SKU003"
+    },
+    {
+      "id": 4,
+      "name": "Intercontinental Title",
+      "stock_quantity": 30,
+      "price": 24.99,
+      "sku": "SKU004"
+    },
+    {
+      "id": 5,
+      "name": "Tag Team Title",
+      "stock_quantity": 60,
+      "price": 4.99,
+      "sku": "SKU005"
+    },
+    {
+      "id": 6,
+      "name": "NXT Title",
+      "stock_quantity": 45,
+      "price": 12.99,
+      "sku": "SKU006"
+    },
+    {
+      "id": 7,
+      "name": "Diva Title",
+      "stock_quantity": 90,
+      "price": 29.99,
+      "sku": "SKU007"
+    },
+    {
+      "id": 8,
+      "name": "NCW Title",
+      "stock_quantity": 20,
+      "price": 39.99,
+      "sku": "SKU008"
+    },
+    {
+      "id": 9,
+      "name": "NWO Title",
+      "stock_quantity": 80,
+      "price": 8.99,
+      "sku": "SKU009"
+    },
+    {
+      "id": 10,
+      "name": "Money in the bank",
+      "stock_quantity": 55,
+      "price": 9.99,
+      "sku": "SKU010"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 1,
+      "product": {
+        "id": 1,
+        "name": "WWE Title",
+        "price": 9.99,
+        "sku": "SKU001"
+      }
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 2,
+      "product": {
+        "id": 2,
+        "name": "Heavyweight Title",
+        "price": 19.99,
+        "sku": "SKU002"
+      }
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "productId": 3,
+      "product": {
+        "id": 3,
+        "name": "USA Title",
+        "price": 14.99,
+        "sku": "SKU003"
+      }
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "productId": 4,
+      "product": {
+        "id": 4,
+        "name": "Intercontinental Title",
+        "price": 24.99,
+        "sku": "SKU004"
+      }
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "productId": 5,
+      "product": {
+        "id": 5,
+        "name": "Tag Team Title",
+        "price": 4.99,
+        "sku": "SKU005"
+      }
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "productId": 6,
+      "product": {
+        "id": 6,
+        "name": "NXT Title",
+        "price": 12.99,
+        "sku": "SKU006"
+      }
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "productId": 7,
+      "product": {
+        "id": 7,
+        "name": "Diva Title",
+        "price": 29.99,
+        "sku": "SKU007"
+      }
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "productId": 8,
+      "product": {
+        "id": 8,
+        "name": "NCW Title",
+        "price": 39.99,
+        "sku": "SKU008"
+      }
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "productId": 9,
+      "product": {
+        "id": 9,
+        "name": "NWO Title",
+        "price": 8.99,
+        "sku": "SKU009"
+      }
+    },
+    {
+      "id": 10,
+      "userId": 2,
+      "productId": 10,
+      "product": {
+        "id": 10,
+        "name": "Money in the bank",
+        "price": 9.99,
+        "sku": "SKU010"
+      }
+    },
+    {
+      "id": 11,
+      "userId": 3,
+      "productId": 1,
+      "product": {
+        "id": 1,
+        "name": "WWE Title",
+        "price": 9.99,
+        "sku": "SKU001"
+      }
+    },
+    {
+      "id": 12,
+      "userId": 3,
+      "productId": 3,
+      "product": {
+        "id": 3,
+        "name": "USA Title",
+        "price": 14.99,
+        "sku": "SKU003"
+      }
+    },
+    {
+      "id": 13,
+      "userId": 3,
+      "productId": 5,
+      "product": {
+        "id": 5,
+        "name": "Tag Team Title",
+        "price": 4.99,
+        "sku": "SKU005"
+      }
+    },
+    {
+      "id": 14,
+      "userId": 3,
+      "productId": 7,
+      "product": {
+        "id": 7,
+        "name": "Diva Title",
+        "price": 29.99,
+        "sku": "SKU007"
+      }
+    },
+    {
+      "id": 15,
+      "userId": 3,
+      "productId": 9,
+      "product": {
+        "id": 9,
+        "name": "NWO Title",
+        "price": 8.99,
+        "sku": "SKU009"
+      }
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "total_price": 59.95,
+      "billing_address": "Ampang",
+      "orders": [
+        {
+          "id": 1,
+          "productId": 1,
+          "product": {
+            "id": 1,
+            "name": "WWE Title",
+            "price": 9.99,
+            "sku": "SKU001"
+          }
+        },
+        {
+          "id": 2,
+          "productId": 2,
+          "product": {
+            "id": 2,
+            "name": "Heavyweight Title",
+            "price": 19.99,
+            "sku": "SKU002"
+          }
+        },
+        {
+          "id": 3,
+          "productId": 3,
+          "product": {
+            "id": 3,
+            "name": "USA Title",
+            "price": 14.99,
+            "sku": "SKU003"
+          }
+        },
+        {
+          "id": 4,
+          "productId": 4,
+          "product": {
+            "id": 4,
+            "name": "Intercontinental Title",
+            "price": 24.99,
+            "sku": "SKU004"
+          }
+        },
+        {
+          "id": 5,
+          "productId": 5,
+          "product": {
+            "id": 5,
+            "name": "Tag Team Title",
+            "price": 4.99,
+            "sku": "SKU005"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "total_price": 123.45,
+      "billing_address": "WWE Raw",
+      "orders": [
+        {
+          "id": 6,
+          "productId": 6,
+          "product": {
+            "id": 6,
+            "name": "NXT Title",
+            "price": 12.99,
+            "sku": "SKU006"
+          }
+        },
+        {
+          "id": 7,
+          "productId": 7,
+          "product": {
+            "id": 7,
+            "name": "Diva Title",
+            "price": 29.99,
+            "sku": "SKU007"
+          }
+        },
+        {
+          "id": 8,
+          "productId": 8,
+          "product": {
+            "id": 8,
+            "name": "NCW Title",
+            "price": 39.99,
+            "sku": "SKU008"
+          }
+        },
+        {
+          "id": 9,
+          "productId": 9,
+          "product": {
+            "id": 9,
+            "name": "NWO Title",
+            "price": 8.99,
+            "sku": "SKU009"
+          }
+        },
+        {
+          "id": 10,
+          "productId": 10,
+          "product": {
+            "id": 10,
+            "name": "Money in the bank",
+            "price": 9.99,
+            "sku": "SKU010"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "total_price": 67.95,
+      "billing_address": "WWE Smackdown",
+      "orders": [
+        {
+          "id": 11,
+          "productId": 1,
+          "product": {
+            "id": 1,
+            "name": "WWE Title",
+            "price": 9.99,
+            "sku": "SKU001"
+          }
+        },
+        {
+          "id": 12,
+          "productId": 3,
+          "product": {
+            "id": 3,
+            "name": "USA Title",
+            "price": 14.99,
+            "sku": "SKU003"
+          }
+        },
+        {
+          "id": 13,
+          "productId": 5,
+          "product": {
+            "id": 5,
+            "name": "Tag Team Title",
+            "price": 4.99,
+            "sku": "SKU005"
+          }
+        },
+        {
+          "id": 14,
+          "productId": 7,
+          "product": {
+            "id": 7,
+            "name": "Diva Title",
+            "price": 29.99,
+            "sku": "SKU007"
+          }
+        },
+        {
+          "id": 15,
+          "productId": 9,
+          "product": {
+            "id": 9,
+            "name": "NWO Title",
+            "price": 8.99,
+            "sku": "SKU009"
+          }
+        }
+      ]
+    }
+  ]
+}

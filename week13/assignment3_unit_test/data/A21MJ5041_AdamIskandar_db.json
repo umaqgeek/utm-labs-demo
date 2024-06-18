@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Adam Iskandar",
+      "email": "adamiskandar@graduate.utm.my",
+      "phone": "010-8078735",
+      "address": "Subang Jaya, Selangor"
+    },
+    {
+      "id": 2,
+      "name": "Sharudin",
+      "email": "shadd70@gmail.com",
+      "phone": "017-7145323",
+      "address": "Muar, Johor"
+    },
+    {
+      "id": 3,
+      "name": "Nik Nor Letisha",
+      "email": "letizha@gmail.com",
+      "phone": "012-2095272",
+      "address": "Kota Bharu, Kelantan"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Product A",
+      "stock": 100,
+      "price": 10.99,
+      "sku": "SKU001"
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "stock": 200,
+      "price": 12.99,
+      "sku": "SKU002"
+    },
+    {
+      "id": 3,
+      "name": "Product C",
+      "stock": 150,
+      "price": 9.99,
+      "sku": "SKU003"
+    },
+    {
+      "id": 4,
+      "name": "Product D",
+      "stock": 80,
+      "price": 15.99,
+      "sku": "SKU004"
+    },
+    {
+      "id": 5,
+      "name": "Product E",
+      "stock": 120,
+      "price": 8.99,
+      "sku": "SKU005"
+    },
+    {
+      "id": 6,
+      "name": "Product F",
+      "stock": 90,
+      "price": 11.99,
+      "sku": "SKU006"
+    },
+    {
+      "id": 7,
+      "name": "Product G",
+      "stock": 110,
+      "price": 14.99,
+      "sku": "SKU007"
+    },
+    {
+      "id": 8,
+      "name": "Product H",
+      "stock": 130,
+      "price": 13.99,
+      "sku": "SKU008"
+    },
+    {
+      "id": 9,
+      "name": "Product I",
+      "stock": 60,
+      "price": 7.99,
+      "sku": "SKU009"
+    },
+    {
+      "id": 10,
+      "name": "Product J",
+      "stock": 70,
+      "price": 6.99,
+      "sku": "SKU010"
+    }
+  ],
+  "orders": [
+    { "id": 1, "userId": 1, "productId": 1, "quantity": 2 },
+    { "id": 2, "userId": 1, "productId": 2, "quantity": 1 },
+    { "id": 3, "userId": 1, "productId": 3, "quantity": 1 },
+    { "id": 4, "userId": 1, "productId": 4, "quantity": 3 },
+    { "id": 5, "userId": 1, "productId": 5, "quantity": 2 },
+    { "id": 6, "userId": 2, "productId": 6, "quantity": 1 },
+    { "id": 7, "userId": 2, "productId": 7, "quantity": 1 },
+    { "id": 8, "userId": 2, "productId": 8, "quantity": 2 },
+    { "id": 9, "userId": 2, "productId": 9, "quantity": 3 },
+    { "id": 10, "userId": 2, "productId": 10, "quantity": 1 },
+    { "id": 11, "userId": 3, "productId": 1, "quantity": 1 },
+    { "id": 12, "userId": 3, "productId": 2, "quantity": 2 },
+    { "id": 13, "userId": 3, "productId": 3, "quantity": 1 },
+    { "id": 14, "userId": 3, "productId": 4, "quantity": 2 },
+    { "id": 15, "userId": 3, "productId": 5, "quantity": 3 }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "orders": [1, 2, 3, 4, 5],
+      "totalPrice": 106.93,
+      "billingAddress": "Subang Jaya, Selangor"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "orders": [6, 7, 8, 9, 10],
+      "totalPrice": 153.91,
+      "billingAddress": "Muar, Johor"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "orders": [11, 12, 13, 14, 15],
+      "totalPrice": 124.93,
+      "billingAddress": "Kota Bharu, Kelantan"
+    }
+  ]
+}

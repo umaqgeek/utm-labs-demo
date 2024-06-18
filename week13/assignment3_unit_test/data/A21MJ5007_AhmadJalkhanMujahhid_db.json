@@ -1,0 +1,78 @@
+{
+    "users": [
+      { "id": 1, "name": "Ali Abu", "email": "alab@gmail.com", "phone": "0987654321", "address": "Wangsa Maju, W.P. Kuala Lumpur" },
+      { "id": 2, "name": "Abu Bakar", "email": "rimbaterbakar@yahoo.com", "phone": "0123456789", "address": "Taman Tun Dr Ismail, Kedah" },
+      { "id": 3, "name": "Ali Seman", "email": "iamseman@rocketmail.com", "phone": "0192891692", "address": "Jalan Ampang, Johor" }
+    ],
+    "products": [
+      { "id": 1, "name": "Laptop", "quantity": 20, "price": 2000, "SKU_no": "LAP123" },
+      { "id": 2, "name": "Monitor", "quantity": 15, "price": 200, "SKU_no": "MON123" },
+      { "id": 3, "name": "Phone", "quantity": 10, "price": 500, "SKU_no": "PHO123" },
+      { "id": 4, "name": "Tablet", "quantity": 8, "price": 1500, "SKU_no": "TAB123" },
+      { "id": 5, "name": "Desk", "quantity": 5, "price": 200, "SKU_no": "DES123" },
+      { "id": 6, "name": "Chair", "quantity": 20, "price": 50, "SKU_no": "CHA123" },
+      { "id": 7, "name": "Cup", "quantity": 30, "price": 5, "SKU_no": "CUP123" },
+      { "id": 8, "name": "Plate", "quantity": 15, "price": 5, "SKU_no": "PLA123" },
+      { "id": 9, "name": "Book", "quantity": 12, "price": 50, "SKU_no": "BOO123" },
+      { "id": 10, "name": "Pencil", "quantity": 25, "price": 5, "SKU_no": "PEN123" }
+    ],
+    "transactions": [
+      {
+        "id": 1,
+        "user_id": 1,
+        "total_price": 4400,
+        "billing_address": "Wangsa Maju, W.P. Kuala Lumpur",
+        "orders": [
+          { "id": 1, "product_id": 1, "quantity": 1 },
+          { "id": 2, "product_id": 2, "quantity": 1 },
+          { "id": 3, "product_id": 3, "quantity": 1 },
+          { "id": 4, "product_id": 4, "quantity": 1 },
+          { "id": 5, "product_id": 5, "quantity": 1 }
+        ]
+      },
+      {
+        "id": 2,
+        "user_id": 2,
+        "total_price": 115,
+        "billing_address": "Taman Tun Dr Ismail, Kedah",
+        "orders": [
+          { "id": 6, "product_id": 6, "quantity": 1 },
+          { "id": 7, "product_id": 7, "quantity": 1 },
+          { "id": 8, "product_id": 8, "quantity": 1 },
+          { "id": 9, "product_id": 9, "quantity": 1 },
+          { "id": 10, "product_id": 10, "quantity": 1 }
+        ]
+      },
+      {
+        "id": 3,
+        "user_id": 3,
+        "total_price": 1760,
+        "billing_address": "Jalan Ampang, Johor",
+        "orders": [
+          { "id": 11, "product_id": 2, "quantity": 1 },
+          { "id": 12, "product_id": 4, "quantity": 1 },
+          { "id": 13, "product_id": 6, "quantity": 1 },
+          { "id": 14, "product_id": 8, "quantity": 1 },
+          { "id": 15, "product_id": 10, "quantity": 1 }
+        ]
+      }
+    ],
+    "orders": [
+      { "id": 1, "transaction_id": 1, "user_id": 1, "product_id": 1, "quantity": 1 },
+      { "id": 2, "transaction_id": 1, "user_id": 1, "product_id": 2, "quantity": 1 },
+      { "id": 3, "transaction_id": 1, "user_id": 1, "product_id": 3, "quantity": 1 },
+      { "id": 4, "transaction_id": 1, "user_id": 1, "product_id": 4, "quantity": 1 },
+      { "id": 5, "transaction_id": 1, "user_id": 1, "product_id": 5, "quantity": 1 },
+      { "id": 6, "transaction_id": 2, "user_id": 2, "product_id": 6, "quantity": 1 },
+      { "id": 7, "transaction_id": 2, "user_id": 2, "product_id": 7, "quantity": 1 },
+      { "id": 8, "transaction_id": 2, "user_id": 2, "product_id": 8, "quantity": 1 },
+      { "id": 9, "transaction_id": 2, "user_id": 2, "product_id": 9, "quantity": 1 },
+      { "id": 10, "transaction_id": 2, "user_id": 2, "product_id": 10, "quantity": 1 },
+      { "id": 11, "transaction_id": 3, "user_id": 3, "product_id": 2, "quantity": 1 },
+      { "id": 12, "transaction_id": 3, "user_id": 3, "product_id": 4, "quantity": 1 },
+      { "id": 13, "transaction_id": 3, "user_id": 3, "product_id": 6, "quantity": 1 },
+      { "id": 14, "transaction_id": 3, "user_id": 3, "product_id": 8, "quantity": 1 },
+      { "id": 15, "transaction_id": 3, "user_id": 3, "product_id": 10, "quantity": 1 }
+    ]
+}
+  

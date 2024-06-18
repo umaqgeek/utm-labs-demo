@@ -1,7 +1,7 @@
 const request = require('supertest');
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('data/sample.json');
+const router = jsonServer.router('data/answers.json');
 
 const middlewares = jsonServer.defaults();
 const port = 3000;
