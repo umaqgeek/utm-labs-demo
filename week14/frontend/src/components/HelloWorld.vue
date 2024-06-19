@@ -5,6 +5,7 @@
     <div v-else>
       <div v-for="user in users" v-bind:key="user.id">{{ user.name }}</div>
     </div>
+    <div v-if="error != ''">{{ error }}</div>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ export default {
     return {
       loading: false,
       users: [],
+      error: "",
     };
   },
   methods: {
@@ -27,7 +29,7 @@ export default {
       var self = this;
       self.loading = true;
       axios
-        .get("http://localhost/backend/users")
+        .get("http://localhost:8081/users")
         .then(function (response) {
           // handle success
           self.users = response.data;
@@ -35,7 +37,7 @@ export default {
         .catch(function (error) {
           // handle error
           console.error(error);
-          self.error = "Error fetching users! Please try again.";
+          self.error = `Error fetching users! Error: ${error} Please try again.`;
         })
         .then(function () {
           // always executed

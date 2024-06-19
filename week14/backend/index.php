@@ -20,7 +20,9 @@ $app->get('/users', function ($request, $response, $args) use ($conn) {
             $users[] = $row;
         }
     }
-    return $response->withJson($users)->withHeader('Access-Control-Allow-Origin', '*');
+    return $response
+        ->withJson($users)
+        ->withHeader('Access-Control-Allow-Origin', '*');
 });
 
 $app->run();
