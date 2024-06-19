@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Rasheaduzzaman",
+      "email": "rashead@gmail.com",
+      "phone": "123-456-7890",
+      "address": "123 Main St"
+    },
+    {
+      "id": 2,
+      "name": "Lionel Messi",
+      "email": "leo@gmail.com",
+      "phone": "234-567-8901",
+      "address": "456 Elm St"
+    },
+    {
+      "id": 3,
+      "name": "Cristiano Ronaldo",
+      "email": "cr7@gmail.com",
+      "phone": "345-678-9012",
+      "address": "789 Oak St"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "stock_quantity": 10,
+      "price": 100,
+      "sku": "SKU001"
+    },
+    {
+      "id": 2,
+      "name": "Orange",
+      "stock_quantity": 20,
+      "price": 200,
+      "sku": "SKU002"
+    },
+    {
+      "id": 3,
+      "name": "Iphone",
+      "stock_quantity": 30,
+      "price": 300,
+      "sku": "SKU003"
+    },
+    {
+      "id": 4,
+      "name": "Laptop",
+      "stock_quantity": 40,
+      "price": 400,
+      "sku": "SKU004"
+    },
+    {
+      "id": 5,
+      "name": "Banana",
+      "stock_quantity": 50,
+      "price": 500,
+      "sku": "SKU005"
+    },
+    {
+      "id": 6,
+      "name": "Lemon",
+      "stock_quantity": 60,
+      "price": 600,
+      "sku": "SKU006"
+    },
+    {
+      "id": 7,
+      "name": "Tea",
+      "stock_quantity": 70,
+      "price": 700,
+      "sku": "SKU007"
+    },
+    {
+      "id": 8,
+      "name": "Water",
+      "stock_quantity": 80,
+      "price": 800,
+      "sku": "SKU008"
+    },
+    {
+      "id": 9,
+      "name": "Cat",
+      "stock_quantity": 90,
+      "price": 900,
+      "sku": "SKU009"
+    },
+    {
+      "id": 10,
+      "name": "Lion",
+      "stock_quantity": 100,
+      "price": 1000,
+      "sku": "SKU010"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "orders": [1, 2, 3, 4, 5],
+      "total_price": 1500,
+      "billing_address": "123 Main St"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "orders": [6, 7, 8, 9, 10],
+      "total_price": 3000,
+      "billing_address": "456 Elm St"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "orders": [11, 12, 13, 14, 15],
+      "total_price": 4500,
+      "billing_address": "789 Oak St"
+    }
+  ],
+  "orders": [
+    { "id": 1, "transaction_id": 1, "product_id": 1, "quantity": 1 },
+    { "id": 2, "transaction_id": 1, "product_id": 2, "quantity": 1 },
+    { "id": 3, "transaction_id": 1, "product_id": 3, "quantity": 1 },
+    { "id": 4, "transaction_id": 1, "product_id": 4, "quantity": 1 },
+    { "id": 5, "transaction_id": 1, "product_id": 5, "quantity": 1 },
+    { "id": 6, "transaction_id": 2, "product_id": 6, "quantity": 1 },
+    { "id": 7, "transaction_id": 2, "product_id": 7, "quantity": 1 },
+    { "id": 8, "transaction_id": 2, "product_id": 8, "quantity": 1 },
+    { "id": 9, "transaction_id": 2, "product_id": 9, "quantity": 1 },
+    { "id": 10, "transaction_id": 2, "product_id": 10, "quantity": 1 },
+    { "id": 11, "transaction_id": 3, "product_id": 1, "quantity": 1 },
+    { "id": 12, "transaction_id": 3, "product_id": 2, "quantity": 1 },
+    { "id": 13, "transaction_id": 3, "product_id": 3, "quantity": 1 },
+    { "id": 14, "transaction_id": 3, "product_id": 4, "quantity": 1 },
+    { "id": 15, "transaction_id": 3, "product_id": 5, "quantity": 1 }
+  ]
+}
